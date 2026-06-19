@@ -1,0 +1,432 @@
+{
+  "subject": "kanban",
+  "title": "Kanban & Lean 2026 课堂小测",
+  "totalQuestions": 17,
+  "questions": [
+    {
+      "id": 1,
+      "type": "single",
+      "stem": "Kanban 最早起源于哪个国家的哪个行业（）?",
+      "options": [
+        {
+          "key": "A",
+          "text": "美国汽车制造业"
+        },
+        {
+          "key": "B",
+          "text": "德国机械工业"
+        },
+        {
+          "key": "C",
+          "text": "日本电子工业"
+        },
+        {
+          "key": "D",
+          "text": "日本汽车制造业"
+        }
+      ],
+      "answer": "D",
+      "accuracy": 99.34
+    },
+    {
+      "id": 2,
+      "type": "single",
+      "stem": "《Kanban 指南》将看板定义为\"通过使用何种系统来优化流程中价值流动的策略\"（）?",
+      "options": [
+        {
+          "key": "A",
+          "text": "可视化、推动式"
+        },
+        {
+          "key": "B",
+          "text": "推动式、自动化"
+        },
+        {
+          "key": "C",
+          "text": "自动化、迭代式"
+        },
+        {
+          "key": "D",
+          "text": "可视化、拉动式"
+        }
+      ],
+      "answer": "D",
+      "accuracy": 96.03
+    },
+    {
+      "id": 3,
+      "type": "single",
+      "stem": "2003 年出版《精益软件开发:敏捷工具箱》、把丰田精益原则系统性引入软件开发的作者是（）?",
+      "options": [
+        {
+          "key": "A",
+          "text": "David J. Anderson"
+        },
+        {
+          "key": "B",
+          "text": "Poppendieck 夫妇"
+        },
+        {
+          "key": "C",
+          "text": "Corey Ladas"
+        },
+        {
+          "key": "D",
+          "text": "大野耐一"
+        }
+      ],
+      "answer": "B",
+      "accuracy": 94.04
+    },
+    {
+      "id": 4,
+      "type": "single",
+      "stem": "David J. Anderson 出版里程碑著作《Kanban: Successful Evolutionary Change for Your Technology Business》的年份是（）?",
+      "options": [
+        {
+          "key": "A",
+          "text": "2003 年"
+        },
+        {
+          "key": "B",
+          "text": "2007 年"
+        },
+        {
+          "key": "C",
+          "text": "2010 年"
+        },
+        {
+          "key": "D",
+          "text": "2020 年"
+        }
+      ],
+      "answer": "C",
+      "accuracy": 94.04
+    },
+    {
+      "id": 5,
+      "type": "single",
+      "stem": "Kanban Method 六大实践中，下列哪一项不属于（）?",
+      "options": [
+        {
+          "key": "A",
+          "text": "可视化"
+        },
+        {
+          "key": "B",
+          "text": "限制在制品"
+        },
+        {
+          "key": "C",
+          "text": "显式化策略"
+        },
+        {
+          "key": "D",
+          "text": "固定迭代节奏"
+        }
+      ],
+      "answer": "D",
+      "accuracy": 97.35
+    },
+    {
+      "id": 6,
+      "type": "single",
+      "stem": "Kanban 中\"工作流的定义\"（DoW）指的是（）?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Definition of Workflow"
+        },
+        {
+          "key": "B",
+          "text": "Definition of Done"
+        },
+        {
+          "key": "C",
+          "text": "Definition of Want"
+        },
+        {
+          "key": "D",
+          "text": "Day of Work"
+        }
+      ],
+      "answer": "A",
+      "accuracy": 98.01
+    },
+    {
+      "id": 7,
+      "type": "single",
+      "stem": "Kanban Guides 中\"产能（Throughput）\"的定义是（）?",
+      "options": [
+        {
+          "key": "A",
+          "text": "每单位时间内完成的工作项数量"
+        },
+        {
+          "key": "B",
+          "text": "已开始但未完成的工作项数量"
+        },
+        {
+          "key": "C",
+          "text": "工作项从开始到当前时刻所经过的时间"
+        },
+        {
+          "key": "D",
+          "text": "85% 工作项的最长完成时间"
+        }
+      ],
+      "answer": "A",
+      "accuracy": 98.68
+    },
+    {
+      "id": 8,
+      "type": "single",
+      "stem": "关于\"周期时间（Cycle Time）\"与\"交付时间（Lead Time）\"的差异，材料中正确的说法是（）?",
+      "options": [
+        {
+          "key": "A",
+          "text": "周期时间一定大于交付时间"
+        },
+        {
+          "key": "B",
+          "text": "两者完全等同"
+        },
+        {
+          "key": "C",
+          "text": "交付时间通常还包括需求提出到启动前的等待时间"
+        },
+        {
+          "key": "D",
+          "text": "周期时间统计未完成的任务，交付时间统计已完成的任务"
+        }
+      ],
+      "answer": "C",
+      "accuracy": 96.03
+    },
+    {
+      "id": 9,
+      "type": "single",
+      "stem": "精益思想的演化顺序（从早到晚）正确的是（）?",
+      "options": [
+        {
+          "key": "A",
+          "text": "丰田 TPS → 福特流水线 → Poppendieck"
+        },
+        {
+          "key": "B",
+          "text": "福特流水线 → 丰田 TPS → Poppendieck"
+        },
+        {
+          "key": "C",
+          "text": "Poppendieck → 丰田 TPS → 福特流水线"
+        },
+        {
+          "key": "D",
+          "text": "福特流水线 → Poppendieck → 丰田 TPS"
+        }
+      ],
+      "answer": "B",
+      "accuracy": 92.72
+    },
+    {
+      "id": 10,
+      "type": "single",
+      "stem": "关于\"自働化\"，下列说法正确的是（）?",
+      "options": [
+        {
+          "key": "A",
+          "text": "就是\"自动化\"的别字"
+        },
+        {
+          "key": "B",
+          "text": "强调机器完全自主，不需要人参与"
+        },
+        {
+          "key": "C",
+          "text": "英文翻译为 automation"
+        },
+        {
+          "key": "D",
+          "text": "是和制汉字，比\"自動化\"多一个\"亻\"旁，对应 autonomation"
+        }
+      ],
+      "answer": "D",
+      "accuracy": 100.0
+    },
+    {
+      "id": 11,
+      "type": "single",
+      "stem": "Poppendieck 在精益软件开发上的核心贡献是（）?",
+      "options": [
+        {
+          "key": "A",
+          "text": "同构映射:把\"库存\"翻译成\"在制品（WIP）\""
+        },
+        {
+          "key": "B",
+          "text": "提出 Kanban 六大实践"
+        },
+        {
+          "key": "C",
+          "text": "发明可视化看板"
+        },
+        {
+          "key": "D",
+          "text": "提出 Scrumban"
+        }
+      ],
+      "answer": "A",
+      "accuracy": 94.7
+    },
+    {
+      "id": 12,
+      "type": "single",
+      "stem": "软件七种浪费中不包括下列哪一项（）?",
+      "options": [
+        {
+          "key": "A",
+          "text": "部分完成的工作"
+        },
+        {
+          "key": "B",
+          "text": "任务切换"
+        },
+        {
+          "key": "C",
+          "text": "过度沟通"
+        },
+        {
+          "key": "D",
+          "text": "重新学习"
+        }
+      ],
+      "answer": "C",
+      "accuracy": 80.79
+    },
+    {
+      "id": 13,
+      "type": "single",
+      "stem": "精益\"推迟决策\"原则中提到的关键概念是（）?",
+      "options": [
+        {
+          "key": "A",
+          "text": "最早决定时刻（Earliest Commitment Moment）"
+        },
+        {
+          "key": "B",
+          "text": "最后责任时刻（Last Responsible Moment）"
+        },
+        {
+          "key": "C",
+          "text": "迭代决策时刻"
+        },
+        {
+          "key": "D",
+          "text": "批量决策时刻"
+        }
+      ],
+      "answer": "B",
+      "accuracy": 98.68
+    },
+    {
+      "id": 14,
+      "type": "single",
+      "stem": "某公司发布流水线 CI 红灯了，工程师为了赶发版用 `--no-verify` 跳过检查直接合并。按精益视角最贴切的判断是（）?",
+      "options": [
+        {
+          "key": "A",
+          "text": "这是合理的工程权衡，因为快速交付是第一原则"
+        },
+        {
+          "key": "B",
+          "text": "这违反了内建质量中\"自働化\"对应的停线权——红灯即应阻塞合并"
+        },
+        {
+          "key": "C",
+          "text": "这违反了\"尊重人\"——不该让 CI 阻塞工程师"
+        },
+        {
+          "key": "D",
+          "text": "这违反了\"创建知识\"——应该先开个回顾会议"
+        }
+      ],
+      "answer": "B",
+      "accuracy": 100.0
+    },
+    {
+      "id": 15,
+      "type": "single",
+      "stem": "某 Kanban 团队的瓶颈列堆积了 8 张卡，团队 6 人，每天加班赶工依然完不成。最贴合材料原则的应对是（）?",
+      "options": [
+        {
+          "key": "A",
+          "text": "把瓶颈列 WIP 上限调到约 4，停止往里推工作，先疏通瓶颈"
+        },
+        {
+          "key": "B",
+          "text": "临时绕开 WIP 限制，把卡片放进快速通道"
+        },
+        {
+          "key": "C",
+          "text": "把瓶颈列拆给前面流程的空闲工人"
+        },
+        {
+          "key": "D",
+          "text": "让所有人加班直到追平"
+        }
+      ],
+      "answer": "A",
+      "accuracy": 99.34
+    },
+    {
+      "id": 16,
+      "type": "single",
+      "stem": "团队反思会上有人提议:\"开发已经很快了，但测试总是积压。我们应给开发团队加更多 KPI 提升速度。\"按精益视角最贴切的判断是（）?",
+      "options": [
+        {
+          "key": "A",
+          "text": "对，开发越快，整体越快"
+        },
+        {
+          "key": "B",
+          "text": "对，KPI 是局部优化的好工具"
+        },
+        {
+          "key": "C",
+          "text": "错，局部最优 ≠ 全局最优;开发更快只会让测试队列更长，整体仍慢"
+        },
+        {
+          "key": "D",
+          "text": "错，应取消测试这一环节"
+        }
+      ],
+      "answer": "C",
+      "accuracy": 100.0
+    },
+    {
+      "id": 17,
+      "type": "single",
+      "stem": "某团队把 Kanban 当作\"待办列表的电子化\"——每张卡有人写有人做，但没有 WIP 限制、没有显式策略、也没有反馈会议。下列判断最准确的是（）?",
+      "options": [
+        {
+          "key": "A",
+          "text": "这就是 Kanban，因为 Kanban 没有强制角色和会议"
+        },
+        {
+          "key": "B",
+          "text": "这只是看板的\"形\"，缺了\"限制 WIP\"\"显式化策略\"\"反馈循环\"等核心实践，称不上 Kanban 方法"
+        },
+        {
+          "key": "C",
+          "text": "这是 Scrumban，因为只用了部分 Kanban 实践"
+        },
+        {
+          "key": "D",
+          "text": "这违反了 Scrum，因为没有 Sprint 计划"
+        }
+      ],
+      "answer": "B",
+      "accuracy": 98.68
+    }
+  ]
+}

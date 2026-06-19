@@ -1,0 +1,507 @@
+{
+  "subject": "scrum",
+  "title": "Scrum 2026 课堂小测",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "single",
+      "stem": "Scrum 一词最早作为橄榄球术语被引入产品开发领域，是哪一年由竹内弘高与野中郁次郎提出的（）?",
+      "options": [
+        {
+          "key": "A",
+          "text": "1975 年"
+        },
+        {
+          "key": "B",
+          "text": "1986 年"
+        },
+        {
+          "key": "C",
+          "text": "1995 年"
+        },
+        {
+          "key": "D",
+          "text": "2001 年"
+        }
+      ],
+      "answer": "B",
+      "accuracy": 95.75
+    },
+    {
+      "id": 2,
+      "type": "single",
+      "stem": "Scrum 框架的三大支柱（Pillars）是（）?",
+      "options": [
+        {
+          "key": "A",
+          "text": "透明、检视、适应"
+        },
+        {
+          "key": "B",
+          "text": "承诺、专注、尊重"
+        },
+        {
+          "key": "C",
+          "text": "计划、执行、回顾"
+        },
+        {
+          "key": "D",
+          "text": "迭代、增量、反馈"
+        }
+      ],
+      "answer": "A",
+      "accuracy": 97.17
+    },
+    {
+      "id": 3,
+      "type": "single",
+      "stem": "Scrum Team 的三个角色是（）?",
+      "options": [
+        {
+          "key": "A",
+          "text": "项目经理、架构师、测试工程师"
+        },
+        {
+          "key": "B",
+          "text": "需求分析师、PO、Scrum Master"
+        },
+        {
+          "key": "C",
+          "text": "客户、开发人员、管理者"
+        },
+        {
+          "key": "D",
+          "text": "Product Owner、Scrum Master、Developers"
+        }
+      ],
+      "answer": "D",
+      "accuracy": 98.58
+    },
+    {
+      "id": 4,
+      "type": "single",
+      "stem": "根据 Scrum Guide 2020，Scrum Team 通常规模应为（）?",
+      "options": [
+        {
+          "key": "A",
+          "text": "5 人或更少"
+        },
+        {
+          "key": "B",
+          "text": "10 人或更少"
+        },
+        {
+          "key": "C",
+          "text": "15 人或更少"
+        },
+        {
+          "key": "D",
+          "text": "20 人或更少"
+        }
+      ],
+      "answer": "B",
+      "accuracy": 98.11
+    },
+    {
+      "id": 5,
+      "type": "single",
+      "stem": "每日 Scrum 会议（Daily Scrum）的时间盒是（）?",
+      "options": [
+        {
+          "key": "A",
+          "text": "5 分钟"
+        },
+        {
+          "key": "B",
+          "text": "15 分钟"
+        },
+        {
+          "key": "C",
+          "text": "30 分钟"
+        },
+        {
+          "key": "D",
+          "text": "60 分钟"
+        }
+      ],
+      "answer": "B",
+      "accuracy": 98.58
+    },
+    {
+      "id": 6,
+      "type": "single",
+      "stem": "用户故事模板\"作为&lt;某类用户&gt;，我想&lt;做某事&gt;，从而&lt;获得某种价值&gt;\"中，三部分依次对应的是（）?",
+      "options": [
+        {
+          "key": "A",
+          "text": "why / who / what"
+        },
+        {
+          "key": "B",
+          "text": "who / why / what"
+        },
+        {
+          "key": "C",
+          "text": "what / who / why"
+        },
+        {
+          "key": "D",
+          "text": "who / what / why"
+        }
+      ],
+      "answer": "D",
+      "accuracy": 96.7
+    },
+    {
+      "id": 7,
+      "type": "single",
+      "stem": "INVEST 原则中字母 I 代表（）?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Independent（独立性）"
+        },
+        {
+          "key": "B",
+          "text": "Important（重要性）"
+        },
+        {
+          "key": "C",
+          "text": "Integrated（集成性）"
+        },
+        {
+          "key": "D",
+          "text": "Iterative（迭代性）"
+        }
+      ],
+      "answer": "A",
+      "accuracy": 97.64
+    },
+    {
+      "id": 8,
+      "type": "single",
+      "stem": "关于 Product Backlog 的排序权，下列说法正确的是（）?",
+      "options": [
+        {
+          "key": "A",
+          "text": "由 Scrum Master 决定"
+        },
+        {
+          "key": "B",
+          "text": "由开发团队投票决定"
+        },
+        {
+          "key": "C",
+          "text": "由 Product Owner 决定"
+        },
+        {
+          "key": "D",
+          "text": "由利益相关者联合决定"
+        }
+      ],
+      "answer": "C",
+      "accuracy": 94.34
+    },
+    {
+      "id": 9,
+      "type": "single",
+      "stem": "Ron Jeffries 提出的用户故事 3C 原则是（）?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Card（卡片）、Conversation（交谈）、Confirmation（确认）"
+        },
+        {
+          "key": "B",
+          "text": "Code（编码）、Commit（提交）、Check（检查）"
+        },
+        {
+          "key": "C",
+          "text": "Client（客户）、Customer（用户）、Contract（合同）"
+        },
+        {
+          "key": "D",
+          "text": "Concept（概念）、Create（创建）、Complete（完成）"
+        }
+      ],
+      "answer": "A",
+      "accuracy": 99.06
+    },
+    {
+      "id": 10,
+      "type": "single",
+      "stem": "Scrum 中\"猪与鸡\"的比喻里，\"猪\"对应（）?",
+      "options": [
+        {
+          "key": "A",
+          "text": "客户与最终用户"
+        },
+        {
+          "key": "B",
+          "text": "管理层与赞助商"
+        },
+        {
+          "key": "C",
+          "text": "PO、Scrum Master 与开发团队"
+        },
+        {
+          "key": "D",
+          "text": "所有利益相关者"
+        }
+      ],
+      "answer": "C",
+      "accuracy": 96.7
+    },
+    {
+      "id": 11,
+      "type": "single",
+      "stem": "Scrum 的理论基础是（）?",
+      "options": [
+        {
+          "key": "A",
+          "text": "理性主义与形式化方法"
+        },
+        {
+          "key": "B",
+          "text": "演绎主义与文档驱动"
+        },
+        {
+          "key": "C",
+          "text": "结构化分析与瀑布模型"
+        },
+        {
+          "key": "D",
+          "text": "经验主义与精益思维"
+        }
+      ],
+      "answer": "D",
+      "accuracy": 96.23
+    },
+    {
+      "id": 12,
+      "type": "single",
+      "stem": "计划扑克（Planning Poker）使用的常见数字序列是（）?",
+      "options": [
+        {
+          "key": "A",
+          "text": "自然数列 1,2,3,4,5…"
+        },
+        {
+          "key": "B",
+          "text": "等差数列 2,4,6,8…"
+        },
+        {
+          "key": "C",
+          "text": "斐波那契数列 0,1,1,2,3,5,8,13,21…"
+        },
+        {
+          "key": "D",
+          "text": "等比数列 1,2,4,8,16…"
+        }
+      ],
+      "answer": "C",
+      "accuracy": 98.58
+    },
+    {
+      "id": 13,
+      "type": "single",
+      "stem": "当前行业通行的 Scrum Sprint 周期通常为（）?",
+      "options": [
+        {
+          "key": "A",
+          "text": "2–3 天"
+        },
+        {
+          "key": "B",
+          "text": "约 2 周"
+        },
+        {
+          "key": "C",
+          "text": "2 个月"
+        },
+        {
+          "key": "D",
+          "text": "半年"
+        }
+      ],
+      "answer": "B",
+      "accuracy": 99.06
+    },
+    {
+      "id": 14,
+      "type": "single",
+      "stem": "Scrum Guide 2020 相较 2017 版的一项关键变化是（）?",
+      "options": [
+        {
+          "key": "A",
+          "text": "取消 Product Owner 角色"
+        },
+        {
+          "key": "B",
+          "text": "取消\"开发团队（Development Team）\"称谓，统称\"Developers\""
+        },
+        {
+          "key": "C",
+          "text": "将 Sprint 周期统一延长至 4 周"
+        },
+        {
+          "key": "D",
+          "text": "新增架构师角色"
+        }
+      ],
+      "answer": "B",
+      "accuracy": 97.17
+    },
+    {
+      "id": 15,
+      "type": "single",
+      "stem": "Definition of Done（DoD）的主要作用是（）?",
+      "options": [
+        {
+          "key": "A",
+          "text": "团队对\"完成\"的统一定义，用以判断增量是否真正可交付"
+        },
+        {
+          "key": "B",
+          "text": "规定团队成员的绩效考核标准"
+        },
+        {
+          "key": "C",
+          "text": "PO 单方面制定的验收规则"
+        },
+        {
+          "key": "D",
+          "text": "列出测试用例清单"
+        }
+      ],
+      "answer": "A",
+      "accuracy": 100.0
+    },
+    {
+      "id": 16,
+      "type": "single",
+      "stem": "某团队严格执行 Scrum:Sprint 两周、每日站会 15 分钟、三大角色齐全;但 PO 每天给每位开发者分派具体任务并要求小时级进度汇报。下列判断最恰当的是（）?",
+      "options": [
+        {
+          "key": "A",
+          "text": "完全符合 Scrum，因角色、事件、时间盒都齐全"
+        },
+        {
+          "key": "B",
+          "text": "这是 PO 的本职工作——PO 就该给开发者分派任务"
+        },
+        {
+          "key": "C",
+          "text": "只要 Sprint 目标达成，流程细节不必深究"
+        },
+        {
+          "key": "D",
+          "text": "形式齐全但违反了自管理原则，本质是微观管理"
+        }
+      ],
+      "answer": "D",
+      "accuracy": 98.58
+    },
+    {
+      "id": 17,
+      "type": "single",
+      "stem": "某团队近 3 个 Sprint 的 Velocity 分别为 20、35、15 点，PO 据此要求团队\"提高估算准确性\"。下列回应最能体现对 Scrum 估算本质的理解（）?",
+      "options": [
+        {
+          "key": "A",
+          "text": "延长估算会议，逐条故事拆到小时级，以追求精度"
+        },
+        {
+          "key": "B",
+          "text": "由最资深成员独立估算，避免其他人拉低精度"
+        },
+        {
+          "key": "C",
+          "text": "估算的价值不在精确预测，而在建立共同理解、暴露分歧;应分析波动背后的需求模糊与阻碍因素"
+        },
+        {
+          "key": "D",
+          "text": "放弃 Story Point，改用绝对小时数估算"
+        }
+      ],
+      "answer": "C",
+      "accuracy": 97.64
+    },
+    {
+      "id": 18,
+      "type": "single",
+      "stem": "某团队把一个复杂故事拆成 8 个小任务交给 AI Agent，一天内\"完成\"全部任务（CI 通过、已合并）;下 Sprint 团队却无人能解释其中某段代码的设计意图。按 Scrum 2020 及其 AI 时代扩展，下列判断最恰当（）?",
+      "options": [
+        {
+          "key": "A",
+          "text": "这违反了\"透明\"支柱——AI 代码未被人类理解就积累了\"理解力负债\";DoD 应追加\"至少一名成员能解释核心设计决策\""
+        },
+        {
+          "key": "B",
+          "text": "DoD 已通过，工作即已完成"
+        },
+        {
+          "key": "C",
+          "text": "这是 Agent 时代的新常态，无需干预"
+        },
+        {
+          "key": "D",
+          "text": "应禁用所有 AI Agent，回到人工编码"
+        }
+      ],
+      "answer": "A",
+      "accuracy": 99.06
+    },
+    {
+      "id": 19,
+      "type": "single",
+      "stem": "Sprint 进行过程中，PO 想在当前 Sprint 插入一个与 Sprint Goal 冲突的新需求。关于 Sprint 的稳定性与可协商性，下列理解最准确（）?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sprint 启动后一切冻结，任何调整都违反 Scrum"
+        },
+        {
+          "key": "B",
+          "text": "PO 作为最大权威，可随时改写 Sprint Goal"
+        },
+        {
+          "key": "C",
+          "text": "Scrum Master 有权否决 PO 的任何改动"
+        },
+        {
+          "key": "D",
+          "text": "Sprint Goal 不应被单方面更改;但范围可在不破坏目标的前提下与 PO 协商，这体现了\"范围/重要性/估算可协商，质量不可让步\""
+        }
+      ],
+      "answer": "D",
+      "accuracy": 98.11
+    },
+    {
+      "id": 20,
+      "type": "single",
+      "stem": "Sprint Review 上团队演示了完整功能、测试全绿、流程流畅;但真实用户在后续使用中反馈功能与需求不符。关于\"Scrum 解决什么问题\"，下列理解最准确（）?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Scrum 保证需求正确，因此这必然是执行层面的失误"
+        },
+        {
+          "key": "B",
+          "text": "此问题证明 Scrum 不可靠，应回到瀑布模型先把需求冻结"
+        },
+        {
+          "key": "C",
+          "text": "用户真正的需求常在看到产品后才清晰——Scrum 的短迭代+经验主义正是为此而设计;演示\"完成\"≠价值传递成功，下 Sprint 应基于反馈调整 Backlog"
+        },
+        {
+          "key": "D",
+          "text": "应追责 PO 未能在一开始完整定义需求"
+        }
+      ],
+      "answer": "C",
+      "accuracy": 99.06
+    }
+  ]
+}
