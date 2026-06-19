@@ -40,11 +40,13 @@ export function createQuizEngine(questions, opts = {}) {
     if (shouldShuffle && originalOptions.length > 0) {
       // 用 seed + questionId 确保每题独立但可复现
       const qSeed = seed + q.id * 31;
-      displayOptions = seededShuffle(originalOptions, qSeed);
-      // 构建 key 映射表
+      const shuffled = seededShuffle(originalOptions, qSeed);
+      // 构建 key 映射，同时用 display key 覆盖选项的 key 属性
       keyMap = {};
-      displayOptions.forEach((opt, idx) => {
-        keyMap[opt.key] = String.fromCharCode(65 + idx); // 映射到 A, B, C, D...
+      displayOptions = shuffled.map((opt, idx) => {
+        const displayKey = String.fromCharCode(65 + idx);
+        keyMap[opt.key] = displayKey;          // 原始 key → 显示 key
+        return { ...opt, key: displayKey };    // 覆写为显示 key
       });
     } else {
       displayOptions = [...originalOptions];
