@@ -125,6 +125,21 @@ p  { color: var(--text-secondary); line-height: 1.65; }
   margin-top: 2px;
 }
 
+/* Home footer */
+.home-footer {
+  margin-top: 40px;
+  text-align: center;
+}
+.home-footer a {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color .15s;
+}
+.home-footer a:hover {
+  color: var(--text-secondary);
+}
+
 .subject-list {
   display: flex;
   flex-direction: column;

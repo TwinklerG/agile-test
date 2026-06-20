@@ -165,6 +165,9 @@ function renderHome() {
         <p>选择科目开始答题，每题即时反馈</p>
       </div>
       ${sections}
+      <div class="home-footer">
+        <a href="https://github.com/TwinklerG/agile-test" target="_blank" rel="noopener">GitHub</a>
+      </div>
     </div>
   `;
 
