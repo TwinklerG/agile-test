@@ -26,7 +26,10 @@
         }
       ],
       "answer": "B",
-      "accuracy": 95.75
+      "accuracy": 95.75,
+      "explanation": "竹内弘高（Hirotaka Takeuchi）与野中郁次郎（Ikujiro Nonaka）在 1986 年《哈佛商业评论》文章《The New New Product Development Game》中首次将 Scrum 一词从橄榄球引入产品开发领域，描述了跨职能团队协作的「橄榄球式」推进方式。这篇文章是 Scrum 方法论的思想源头。",
+      "source": "Takeuchi & Nonaka, \"The New New Product Development Game\", Harvard Business Review, Jan 1986",
+      "source_url": "https://hbr.org/1986/01/the-new-new-product-development-game"
     },
     {
       "id": 2,
@@ -51,7 +54,10 @@
         }
       ],
       "answer": "A",
-      "accuracy": 97.17
+      "accuracy": 97.17,
+      "explanation": "Scrum 建立在经验主义（empiricism）之上，三大支柱是：**透明（Transparency）**——过程和工件必须对相关人员可见；**检视（Inspection）**——频繁检查工件和进展以发现偏差；**适应（Adaptation）**——发现偏差后尽快调整。这三个支柱是 Scrum 理论的核心。",
+      "source": "Scrum Guide 2020 — Scrum Theory",
+      "source_url": "https://scrumguides.org/scrum-guide.html#scrum-theory"
     },
     {
       "id": 3,
@@ -76,7 +82,10 @@
         }
       ],
       "answer": "D",
-      "accuracy": 98.58
+      "accuracy": 98.58,
+      "explanation": "Scrum Guide 2020 规定 Scrum Team 由三个角色（accountabilities）组成：**Product Owner**（最大化产品价值，管理 Product Backlog）、**Scrum Master**（建立 Scrum 流程，教练团队和组织）、**Developers**（每个 Sprint 交付可用增量）。2020 版去掉了「Development Team」称谓，统称 Developers。",
+      "source": "Scrum Guide 2020 — Scrum Team",
+      "source_url": "https://scrumguides.org/scrum-guide.html#scrum-team"
     },
     {
       "id": 4,
@@ -101,7 +110,10 @@
         }
       ],
       "answer": "B",
-      "accuracy": 98.11
+      "accuracy": 98.11,
+      "explanation": "Scrum Guide 2020 明确建议 Scrum Team 规模通常为 **10 人或更少**。过大的团队会降低沟通效率并增加协调复杂度。如果团队规模超出此范围，应考虑拆分为多个 Scrum Team 共同维护同一产品 Backlog。",
+      "source": "Scrum Guide 2020 — Scrum Team",
+      "source_url": "https://scrumguides.org/scrum-guide.html#scrum-team"
     },
     {
       "id": 5,
@@ -126,7 +138,10 @@
         }
       ],
       "answer": "B",
-      "accuracy": 98.58
+      "accuracy": 98.58,
+      "explanation": "每日 Scrum（Daily Scrum）是 Developers 每天举行的 15 分钟事件，目的是检视 Sprint Goal 的进展，并根据需要调整 Sprint Backlog。其时间盒严格限定为 **15 分钟**，以保持会议的聚焦和高效。",
+      "source": "Scrum Guide 2020 — Daily Scrum",
+      "source_url": "https://scrumguides.org/scrum-guide.html#daily-scrum"
     },
     {
       "id": 6,
@@ -151,7 +166,10 @@
         }
       ],
       "answer": "D",
-      "accuracy": 96.7
+      "accuracy": 96.7,
+      "explanation": "标准用户故事模板「作为<某类用户>，我想<做某事>，从而<获得某种价值>」中三部分依次对应：**who（谁）→ what（什么）→ why（为什么）**。Who 明确角色，What 描述行为，Why 阐述价值。这个模板帮助团队从用户视角理解需求的真正动机。",
+      "source": "Mike Cohn, \"User Stories Applied\", 2004",
+      "source_url": "https://www.mountaingoatsoftware.com/agile/user-stories"
     },
     {
       "id": 7,
@@ -176,7 +194,10 @@
         }
       ],
       "answer": "A",
-      "accuracy": 97.64
+      "accuracy": 97.64,
+      "explanation": "**INVEST** 是 Bill Wake 提出的用户故事质量评估原则：**I=Independent（独立）**、N=Negotiable（可协商）、V=Valuable（有价值）、E=Estimable（可估算）、S=Small（短小）、T=Testable（可测试）。I 排在首位，强调故事应尽量减少依赖，避免阻塞。",
+      "source": "Bill Wake, \"INVEST in Good Stories\"",
+      "source_url": "https://xp123.com/articles/invest-in-good-stories/"
     },
     {
       "id": 8,
@@ -201,7 +222,10 @@
         }
       ],
       "answer": "C",
-      "accuracy": 94.34
+      "accuracy": 94.34,
+      "explanation": "Product Backlog 的排序权归属于 **Product Owner（PO）**。PO 负责根据产品目标、利益相关者反馈和市场变化持续调整 Backlog 条目的优先级。虽然可以听取他人建议，但最终排序决定由 PO 做出。",
+      "source": "Scrum Guide 2020 — Product Owner",
+      "source_url": "https://scrumguides.org/scrum-guide.html#product-owner"
     },
     {
       "id": 9,
@@ -226,7 +250,10 @@
         }
       ],
       "answer": "A",
-      "accuracy": 99.06
+      "accuracy": 99.06,
+      "explanation": "Ron Jeffries 提出的用户故事 **3C 原则**是：**Card（卡片）**——故事写在索引卡上作为占位符；**Conversation（交谈）**——真正的需求在对话中浮现；**Confirmation（确认）**——通过验收测试来验证故事完成。核心思想：卡片本身不够，三 C 缺一不可。",
+      "source": "Ron Jeffries, \"Essential XP: Card, Conversation, Confirmation\", 2001",
+      "source_url": "https://ronjeffries.com/xprog/articles/expcardconversationconfirmation/"
     },
     {
       "id": 10,
@@ -251,7 +278,10 @@
         }
       ],
       "answer": "C",
-      "accuracy": 96.7
+      "accuracy": 96.7,
+      "explanation": "「猪与鸡」是 Scrum 中经典的比喻（源自一个商业寓言）：**猪（Pig）**是 Scrum Team 成员（PO、SM、Developers），他们「把肉都押上了」，对项目全身心投入；鸡（Chicken）是其他利益相关者，他们「参与但不投入」。这个比喻强调核心团队的承诺程度。注意：Scrum Guide 2020 已不再使用此比喻，但仍是常见的教学概念。",
+      "source": "Ken Schwaber, \"Agile Project Management with Scrum\", 2004",
+      "source_url": "https://www.scrum.org/resources/blog/pigs-and-chickens"
     },
     {
       "id": 11,
@@ -276,7 +306,10 @@
         }
       ],
       "answer": "D",
-      "accuracy": 96.23
+      "accuracy": 96.23,
+      "explanation": "Scrum 的理论基础是**经验主义（empiricism）与精益思维（Lean thinking）**。经验主义强调知识来自实践和观察，决策基于实际数据而非理论预测。Scrum 通过短迭代（Sprint）和持续反馈来实现经验性过程控制。精益思维则强调消除浪费、聚焦价值流。",
+      "source": "Scrum Guide 2020 — Scrum Theory",
+      "source_url": "https://scrumguides.org/scrum-guide.html#scrum-theory"
     },
     {
       "id": 12,
@@ -301,7 +334,10 @@
         }
       ],
       "answer": "C",
-      "accuracy": 98.58
+      "accuracy": 98.58,
+      "explanation": "计划扑克（Planning Poker）使用的标准序列是**斐波那契数列**（0, 1, 1, 2, 3, 5, 8, 13, 21…）。斐波那契数列的间隔递增反映了一个事实：对更大工作量的估算，不确定性也随之增大。James Grenning 于 2002 年发明此方法，Mike Cohn 推广。",
+      "source": "Mike Cohn, \"Agile Estimating and Planning\", 2005",
+      "source_url": "https://www.mountaingoatsoftware.com/agile/planning-poker"
     },
     {
       "id": 13,
@@ -326,7 +362,10 @@
         }
       ],
       "answer": "B",
-      "accuracy": 99.06
+      "accuracy": 99.06,
+      "explanation": "当前行业通行的 Scrum Sprint 周期为 **约 2 周**。Scrum Guide 规定 Sprint 最长不超过一个月，而业界实践表明 1-2 周是最常见的平衡点——足够完成有意义的增量，又足够短以获得频繁反馈。",
+      "source": "Scrum Guide 2020 & State of Agile Report",
+      "source_url": "https://scrumguides.org/scrum-guide.html#the-sprint"
     },
     {
       "id": 14,
@@ -351,7 +390,10 @@
         }
       ],
       "answer": "B",
-      "accuracy": 97.17
+      "accuracy": 97.17,
+      "explanation": "Scrum Guide 2020 的关键变化之一是**取消「Development Team」称谓，统一使用「Developers」**。旧版将 Scrum Team 分为 PO、SM、Development Team 三个部分，2020 版强调只有一个 Scrum Team，内部有三种 accountability（PO、SM、Developers），消除了「我们 vs 他们」的角色隔离感。",
+      "source": "Scrum Guide Revisions — 2020 Update",
+      "source_url": "https://scrumguides.org/revisions.html"
     },
     {
       "id": 15,
@@ -376,7 +418,10 @@
         }
       ],
       "answer": "A",
-      "accuracy": 100.0
+      "accuracy": 100.0,
+      "explanation": "**Definition of Done（DoD）**是团队对「完成」的统一定义，用来**判断增量是否真正可交付**。DoD 不是绩效考核标准，也不是 PO 单方面制定的规则。它是团队的质量承诺：当 Product Backlog 条目满足 DoD 时，增量即为可交付状态。",
+      "source": "Scrum Guide 2020 — Definition of Done",
+      "source_url": "https://scrumguides.org/scrum-guide.html#definition-of-done"
     },
     {
       "id": 16,
@@ -401,7 +446,10 @@
         }
       ],
       "answer": "D",
-      "accuracy": 98.58
+      "accuracy": 98.58,
+      "explanation": "此题考察 Scrum 的自管理原则。PO 每天给每位开发者分派具体任务并要求小时级汇报，违反了 Scrum 中「Scrum Team 是自管理（self-managing）的」原则。Scrum Guide 2020 明确：团队自己决定 'who does what, when, and how'。PO 负责 'what'（优先级），而非 'how'（实现方式）。形式上的 Scrum 仪式不等于真正践行 Scrum 精神。",
+      "source": "内容由AI生成，仅供参考。参考：Scrum Guide 2020 — Self-Managing",
+      "source_url": "https://scrumguides.org/scrum-guide.html"
     },
     {
       "id": 17,
@@ -426,7 +474,10 @@
         }
       ],
       "answer": "C",
-      "accuracy": 97.64
+      "accuracy": 97.64,
+      "explanation": "Velocity（速率）波动是正常的，因为 Story Point 是相对估算而非绝对工时。估算的本质价值不在于精确预测工期，而在于：①建立团队对故事的共同理解；②暴露分歧和需求模糊点；③为 Sprint 计划提供参考。PO 应关注波动背后的原因（需求模糊？阻碍因素？），而非追求虚假的估算精度。",
+      "source": "内容由AI生成，仅供参考。参考：Mike Cohn, \"Agile Estimating and Planning\"",
+      "source_url": "https://www.mountaingoatsoftware.com/agile/estimating"
     },
     {
       "id": 18,
@@ -451,7 +502,10 @@
         }
       ],
       "answer": "A",
-      "accuracy": 99.06
+      "accuracy": 99.06,
+      "explanation": "此题考察 Scrum 的「透明」支柱与 AI 辅助开发的关系。Scrum 的透明性要求过程和工件对相关人员可见且可理解。AI 生成的代码如果不被团队理解，就产生了「理解力负债」——代码虽然存在但无人知其设计意图，这违反了透明的本质。应在 DoD 中追加对人类理解的要求，而非完全禁用 AI。",
+      "source": "内容由AI生成，仅供参考。参考：Scrum Guide 2020 — Transparency",
+      "source_url": "https://scrumguides.org/scrum-guide.html"
     },
     {
       "id": 19,
@@ -476,7 +530,10 @@
         }
       ],
       "answer": "D",
-      "accuracy": 98.11
+      "accuracy": 98.11,
+      "explanation": "Sprint Goal 是 Sprint 的核心承诺，不应被单方面更改。但 Scrum 也承认「范围/重要性/估算可协商，质量不可让步」的原则。如果 Sprint 过程中发现范围需要调整，应在不破坏 Sprint Goal 的前提下与 PO 协商。这体现了 Scrum 在「承诺」与「适应」之间的平衡。",
+      "source": "内容由AI生成，仅供参考。参考：Scrum Guide 2020 — Sprint Goal",
+      "source_url": "https://scrumguides.org/scrum-guide.html#sprint-goal"
     },
     {
       "id": 20,
@@ -501,7 +558,10 @@
         }
       ],
       "answer": "C",
-      "accuracy": 99.06
+      "accuracy": 99.06,
+      "explanation": "Scrum 通过短迭代和经验主义来解决需求不确定性问题。用户真正的需求常在看到可工作软件后才清晰——这不是 Scrum 的失败，而是其设计的出发点。Sprint Review 演示「完成」不等于价值传递成功，关键在于下一 Sprint 基于真实反馈调整 Backlog。这正是「检视与适应」（Inspect & Adapt）循环的价值。",
+      "source": "内容由AI生成，仅供参考。参考：Scrum Guide 2020 — Sprint Review",
+      "source_url": "https://scrumguides.org/scrum-guide.html#sprint-review"
     }
   ]
 }

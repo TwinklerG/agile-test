@@ -8,10 +8,11 @@ import { score, getGradeLabel, getProgress } from './scorer.js';
 
 // ---- 科目注册 ----
 const SUBJECTS = {
-  scrum:  { slug: 'scrum',  title: 'Scrum 2026',  desc: 'Scrum 框架与敏捷实践',         file: 'data/scrum.json' },
-  xp:     { slug: 'xp',     title: 'XP 2026',      desc: '极限编程与工程实践',             file: 'data/xp.json' },
-  agile:  { slug: 'agile',  title: 'Agile 2026',   desc: '敏捷宣言、价值观与原则',        file: 'data/agile.json' },
-  kanban: { slug: 'kanban', title: 'Kanban & Lean 2026', desc: '看板方法与精益思想',     file: 'data/kanban.json' },
+  scrum:  { slug: 'scrum',  title: 'Scrum 2026',  desc: 'Scrum 框架与敏捷实践',         group: 'agile', file: 'data/scrum.json' },
+  xp:     { slug: 'xp',     title: 'XP 2026',      desc: '极限编程与工程实践',             group: 'agile', file: 'data/xp.json' },
+  agile:  { slug: 'agile',  title: 'Agile 2026',   desc: '敏捷宣言、价值观与原则',        group: 'agile', file: 'data/agile.json' },
+  kanban: { slug: 'kanban', title: 'Kanban & Lean 2026', desc: '看板方法与精益思想',     group: 'agile', file: 'data/kanban.json' },
+  devops: { slug: 'devops', title: 'DevOps 导论',   desc: '期末客观题 · 单选、多选、判断', group: 'other', file: 'data/devops.json' },
 };
 
 // ---- 全局状态 ----
@@ -120,25 +121,50 @@ function renderHome() {
   currentQuizEngine = null;
   currentSubject = null;
 
-  const cards = Object.values(SUBJECTS).map((s) => `
-    <a href="#/quiz/${s.slug}" class="subject-card" data-nav="${s.slug}">
-      <div class="info">
-        <h3>${s.title}</h3>
-        <span>${s.desc}</span>
+  // Group subjects
+  const groups = {
+    agile: { label: '敏捷开发', desc: 'Scrum · XP · Agile · Kanban & Lean', items: [] },
+    other: { label: '其他测试', desc: '', items: [] },
+  };
+
+  for (const s of Object.values(SUBJECTS)) {
+    const g = groups[s.group] || groups.other;
+    g.items.push(s);
+  }
+
+  function renderCard(s) {
+    return `
+      <a href="#/quiz/${s.slug}" class="subject-card" data-nav="${s.slug}">
+        <div class="info">
+          <h3>${s.title}</h3>
+          <span>${s.desc}</span>
+        </div>
+        <span class="caret">→</span>
+      </a>
+    `;
+  }
+
+  const sections = Object.values(groups)
+    .filter(g => g.items.length > 0)
+    .map(g => `
+      <div class="home-section">
+        <div class="home-section-header">
+          <h2>${g.label}</h2>
+          ${g.desc ? `<span>${g.desc}</span>` : ''}
+        </div>
+        <div class="subject-list">
+          ${g.items.map(renderCard).join('')}
+        </div>
       </div>
-      <span class="caret">→</span>
-    </a>
-  `).join('');
+    `).join('');
 
   appEl.innerHTML = `
     <div class="container">
       <div class="home-intro">
         <h1>课堂小测</h1>
-        <p>敏捷软件开发 · 选择科目开始答题，每题即时反馈</p>
+        <p>选择科目开始答题，每题即时反馈</p>
       </div>
-      <div class="subject-list">
-        ${cards}
-      </div>
+      ${sections}
     </div>
   `;
 
@@ -262,6 +288,7 @@ function renderQuizUI(engine, subj) {
 
   // Feedback toast for locked question
   let feedbackHtml = '';
+  let explanationHtml = '';
   if (locked) {
     const qData = engine.questions.find(t => t.id === q.id);
     const userAns = engine.getUserAnswers()[q.id];
@@ -271,6 +298,22 @@ function renderQuizUI(engine, subj) {
     } else {
       const correctDisplay = formatAnswerDisplay(qData?.answer, qData?._keyMap);
       feedbackHtml = `<div class="feedback-toast incorrect">回答错误，正确答案是 <b>${correctDisplay}</b></div>`;
+    }
+    // 答案解析
+    if (qData?.explanation) {
+      const sourceHtml = qData?.source_url
+        ? `<a href="${qData.source_url}" target="_blank" rel="noopener" class="source-link">📎 ${escapeHtml(qData.source || '参考来源')}</a>`
+        : (qData?.source ? `<span class="source-link" style="cursor:default;color:var(--text-muted);border:none">📎 ${escapeHtml(qData.source)}</span>` : '');
+      const aiNotice = qData?.source && qData.source.includes('AI生成') 
+        ? '<div class="ai-notice">内容由AI生成，仅供参考</div>' 
+        : '';
+      explanationHtml = `
+        <div class="explanation-block">
+          <div class="exp-label">解析</div>
+          <div>${escapeHtml(qData.explanation)}</div>
+          ${sourceHtml}
+          ${aiNotice}
+        </div>`;
     }
   }
 
@@ -282,10 +325,20 @@ function renderQuizUI(engine, subj) {
   if (engine.isAllLocked()) {
     footerRightHtml = '<button class="btn btn-primary btn-lg" id="btn-view-result">查看成绩</button>';
   } else if (engine.hasNext()) {
-    footerRightHtml = '<button class="btn btn-primary" id="btn-next">下一题 →</button>';
+    if (!locked && q.type === 'multiple') {
+      footerRightHtml = '<button class="btn btn-primary" id="btn-confirm">确认答案 →</button>';
+    } else {
+      footerRightHtml = '<button class="btn btn-primary" id="btn-next">下一题 →</button>';
+    }
   } else {
-    // On last question but not all locked yet (shouldn't normally happen, but handle gracefully)
-    footerRightHtml = '<button class="btn btn-primary" id="btn-next" disabled>最后一题</button>';
+    // On last question
+    if (!locked && q.type === 'multiple') {
+      footerRightHtml = '<button class="btn btn-primary" id="btn-confirm">确认答案</button>';
+    } else if (locked) {
+      footerRightHtml = '<button class="btn btn-primary btn-lg" id="btn-view-result">查看成绩</button>';
+    } else {
+      footerRightHtml = '<button class="btn btn-primary" id="btn-next" disabled>最后一题</button>';
+    }
   }
 
   // Auto-advance hint
@@ -312,6 +365,7 @@ function renderQuizUI(engine, subj) {
                 ${optionsHtml}
               </div>
               ${feedbackHtml}
+              ${explanationHtml}
             </div>
             <div class="quiz-footer">
               <button class="btn btn-secondary" id="btn-prev" ${!engine.hasPrev() ? 'disabled' : ''}>
@@ -388,16 +442,40 @@ function bindQuizEvents(engine, subj) {
   // Navigation buttons
   const btnPrev = document.getElementById('btn-prev');
   const btnNext = document.getElementById('btn-next');
+  const btnConfirm = document.getElementById('btn-confirm');
   const btnViewResult = document.getElementById('btn-view-result');
 
   if (btnPrev) btnPrev.addEventListener('click', () => {
     engine.prev();
     renderQuizUI(engine, subj);
   });
-  if (btnNext) btnNext.addEventListener('click', () => {
+
+  function handleNextOrConfirm() {
+    const cur = engine.getCurrentQuestion();
+    // 多选题未锁定 → 锁定并展示反馈，然后跳转
+    if (cur && cur.type === 'multiple' && !engine.isLocked(cur.id)) {
+      engine.lockQuestion(cur.id);
+      renderQuizUI(engine, subj);
+      setTimeout(() => {
+        if (engine.hasNext()) {
+          engine.next();
+          renderQuizUI(engine, subj);
+        } else {
+          renderQuizUI(engine, subj);
+        }
+      }, 1000);
+      return;
+    }
+    // 单选题未锁定 → 不允许跳过（必须选择）
+    if (cur && !engine.isLocked(cur.id)) return;
+    // 已锁定 → 正常跳转
     engine.next();
     renderQuizUI(engine, subj);
-  });
+  }
+
+  if (btnNext) btnNext.addEventListener('click', handleNextOrConfirm);
+  if (btnConfirm) btnConfirm.addEventListener('click', handleNextOrConfirm);
+
   if (btnViewResult) btnViewResult.addEventListener('click', () => {
     window._quizResults = {
       subject: subj,
@@ -428,10 +506,14 @@ function onOptionSelected(engine, subj, questionId, displayKey) {
   // 重新渲染以显示反馈
   renderQuizUI(engine, subj);
 
-  // 自动跳转下一题（延迟 1 秒）
-  if (!engine.isAllLocked()) {
+  // 判断对错：答对自动跳转，答错留在原地
+  const qData = engine.questions.find(t => t.id === questionId);
+  const userAns = engine.getUserAnswers()[questionId];
+  const isCorrect = checkAnswerCorrect(userAns, qData?.answer, qData?.type);
+
+  if (isCorrect && !engine.isAllLocked()) {
+    // 答对 → 自动跳转下一未答题（延迟 1 秒）
     setTimeout(() => {
-      // 找到第一个未锁定的题目并跳转
       const qs = engine.questions;
       for (let i = 0; i < qs.length; i++) {
         if (!engine.isLocked(qs[i].id)) {
@@ -440,11 +522,10 @@ function onOptionSelected(engine, subj, questionId, displayKey) {
           return;
         }
       }
-      // 全部锁定则刷新显示「查看成绩」按钮
       renderQuizUI(engine, subj);
     }, 1000);
-  } else {
-    // 最后一题答完，刷新显示「查看成绩」
+  } else if (engine.isAllLocked()) {
+    // 全部锁定则显示「查看成绩」按钮
     renderQuizUI(engine, subj);
   }
 }
@@ -493,6 +574,26 @@ function formatAnswerDisplay(answer, keyMap) {
     return answer.map(k => keyMap ? (keyMap[k] || k) : k).join(', ');
   }
   return keyMap ? (keyMap[answer] || answer) : String(answer);
+}
+
+/**
+ * 构建答案解析 HTML
+ */
+function buildExplanationHtml(qData) {
+  if (!qData?.explanation) return '';
+  const sourceHtml = qData?.source_url
+    ? `<a href="${qData.source_url}" target="_blank" rel="noopener" class="source-link">📎 ${escapeHtml(qData.source || '参考来源')}</a>`
+    : (qData?.source ? `<span class="source-link" style="cursor:default;color:var(--text-muted);border:none">📎 ${escapeHtml(qData.source)}</span>` : '');
+  const aiNotice = qData?.source && qData.source.includes('AI生成')
+    ? '<div class="ai-notice">内容由AI生成，仅供参考</div>'
+    : '';
+  return `
+    <div class="explanation-block">
+      <div class="exp-label">解析</div>
+      <div>${escapeHtml(qData.explanation)}</div>
+      ${sourceHtml}
+      ${aiNotice}
+    </div>`;
 }
 
 // ================================================================
@@ -562,6 +663,7 @@ function renderResult(slug) {
           <span class="your-answer">你的答案: <b>${formatAnswer(r.userAnswer)}</b></span>
           ${!r.isCorrect ? `<span class="correct-answer">正确答案: <b>${formatAnswer(r.correctAnswer)}</b></span>` : ''}
         </div>
+        ${buildExplanationHtml(qData)}
       </div>
     `;
   }).join('');

@@ -1,0 +1,1500 @@
+{
+  "subject": "devops",
+  "title": "DevOps导论 期末考试 客观题部分",
+  "totalQuestions": 60,
+  "questions": [
+    {
+      "id": 1,
+      "type": "single",
+      "stem": "\"Measure twice, Cut once\" 是哪个阶段的典型开发特征？",
+      "options": [
+        {
+          "key": "A",
+          "text": "软件作坊阶段"
+        },
+        {
+          "key": "B",
+          "text": "软件成为独立产品阶段"
+        },
+        {
+          "key": "C",
+          "text": "网络化阶段"
+        },
+        {
+          "key": "D",
+          "text": "软硬件一体化阶段"
+        }
+      ],
+      "answer": "D",
+      "accuracy": null
+    },
+    {
+      "id": 2,
+      "type": "single",
+      "stem": "关于软件过程管理，以下哪一种说法是比较贴切的：",
+      "options": [
+        {
+          "key": "A",
+          "text": "进入互联网时代，软件过程管理是过于老套的话题。"
+        },
+        {
+          "key": "B",
+          "text": "软件过程管理是软件企业发展到较高层次才需要关心的话题。"
+        },
+        {
+          "key": "C",
+          "text": "软件过程管理关注的是企业软件过程能力的稳定输出和提升。"
+        },
+        {
+          "key": "D",
+          "text": "软件过程管理主要关注软件成本和质量目标的达成。"
+        }
+      ],
+      "answer": "C",
+      "accuracy": null
+    },
+    {
+      "id": 3,
+      "type": "single",
+      "stem": "软件开发的本质难题中哪一个与软件发展阶段没有直接关系？",
+      "options": [
+        {
+          "key": "A",
+          "text": "复杂性"
+        },
+        {
+          "key": "B",
+          "text": "可变性"
+        },
+        {
+          "key": "C",
+          "text": "一致性"
+        },
+        {
+          "key": "D",
+          "text": "不可见性"
+        }
+      ],
+      "answer": "D",
+      "accuracy": null
+    },
+    {
+      "id": 4,
+      "type": "single",
+      "stem": "\"Code and Fix\" 是软件发展哪个阶段的典型开发特征？",
+      "options": [
+        {
+          "key": "A",
+          "text": "网络化和服务化"
+        },
+        {
+          "key": "B",
+          "text": "软件作为独立产品"
+        },
+        {
+          "key": "C",
+          "text": "互联网时代"
+        },
+        {
+          "key": "D",
+          "text": "软硬件一体化"
+        }
+      ],
+      "answer": "D",
+      "accuracy": null
+    },
+    {
+      "id": 5,
+      "type": "single",
+      "stem": "以下哪个因素促成了软件成为独立的产品？",
+      "options": [
+        {
+          "key": "A",
+          "text": "互联网的出现"
+        },
+        {
+          "key": "B",
+          "text": "个人电脑的出现"
+        },
+        {
+          "key": "C",
+          "text": "高级程序设计语言的出现"
+        },
+        {
+          "key": "D",
+          "text": "操作系统的出现"
+        }
+      ],
+      "answer": "D",
+      "accuracy": null
+    },
+    {
+      "id": 6,
+      "type": "single",
+      "stem": "软件危机和软件工程这两个概念提出时间是？",
+      "options": [
+        {
+          "key": "A",
+          "text": "上世纪八十年代"
+        },
+        {
+          "key": "B",
+          "text": "上世纪五十年代"
+        },
+        {
+          "key": "C",
+          "text": "上世纪七十年代"
+        },
+        {
+          "key": "D",
+          "text": "上世纪六十年代"
+        }
+      ],
+      "answer": "D",
+      "accuracy": null
+    },
+    {
+      "id": 8,
+      "type": "multiple",
+      "stem": "关于形式化方法的描述当中，不正确的有哪些？",
+      "options": [
+        {
+          "key": "A",
+          "text": "这种方法应用范围有限，例如：不适合跟客户讨论需求。"
+        },
+        {
+          "key": "B",
+          "text": "这种方法是网络化和服务化阶段用来应对软件开发本质四大难题而提出来的"
+        },
+        {
+          "key": "C",
+          "text": "这种方法对开发人员技能有较高的要求"
+        },
+        {
+          "key": "D",
+          "text": "这种方法的主要目的是解决软件开发的效率问题"
+        }
+      ],
+      "answer": [
+        "B",
+        "D"
+      ],
+      "accuracy": null
+    },
+    {
+      "id": 9,
+      "type": "multiple",
+      "stem": "关于迭代式方法的说法哪些是比较恰当的？",
+      "options": [
+        {
+          "key": "A",
+          "text": "迭代式方法是上世纪九十年代中后期才出现的一种方法"
+        },
+        {
+          "key": "B",
+          "text": "迭代式方法是指一类具有类似特征的方法"
+        },
+        {
+          "key": "C",
+          "text": "迭代式方法主要特征在于将软件开发过程视作一个逐步学习和交流的过程"
+        },
+        {
+          "key": "D",
+          "text": "迭代式方法主要是为了解决软件开发的质量问题"
+        }
+      ],
+      "answer": [
+        "B",
+        "C"
+      ],
+      "accuracy": null
+    },
+    {
+      "id": 10,
+      "type": "multiple",
+      "stem": "DevOps方法的出现具有一定的必然性，与以下哪些软件应用特征相匹配？",
+      "options": [
+        {
+          "key": "A",
+          "text": "软件系统部署环境越来越错综复杂"
+        },
+        {
+          "key": "B",
+          "text": "用户需求多变所带来了软件系统的快速演化的要求"
+        },
+        {
+          "key": "C",
+          "text": "软件在社会生活当中扮演了越来越关键的角色"
+        },
+        {
+          "key": "D",
+          "text": "软件定义世界，软件随处可见"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "accuracy": null
+    },
+    {
+      "id": 11,
+      "type": "multiple",
+      "stem": "DevOps的哪些特点可以有效支撑当前社会对软件系统的期望？",
+      "options": [
+        {
+          "key": "A",
+          "text": "微服务架构设计"
+        },
+        {
+          "key": "B",
+          "text": "工具链支持高效率的自动化"
+        },
+        {
+          "key": "C",
+          "text": "虚拟机技术的大量应用"
+        },
+        {
+          "key": "D",
+          "text": "敏捷开发、精益思想以及看板方法，支持快速开发、交付、迭代和演化"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "accuracy": null
+    },
+    {
+      "id": 13,
+      "type": "single",
+      "stem": "DevOps中的XaaS特指 SaaS、PaaS以及IaaS这三种。",
+      "options": [
+        {
+          "key": "A",
+          "text": "正确"
+        },
+        {
+          "key": "B",
+          "text": "错误"
+        }
+      ],
+      "answer": "B",
+      "accuracy": null
+    },
+    {
+      "id": 15,
+      "type": "single",
+      "stem": "下述各个度量项中，哪一个不是PSP的基本度量项？",
+      "options": [
+        {
+          "key": "A",
+          "text": "时间"
+        },
+        {
+          "key": "B",
+          "text": "缺陷"
+        },
+        {
+          "key": "C",
+          "text": "风险"
+        },
+        {
+          "key": "D",
+          "text": "规模"
+        }
+      ],
+      "answer": "C",
+      "accuracy": null
+    },
+    {
+      "id": 16,
+      "type": "multiple",
+      "stem": "关于面向用户的质量观，我们应该关注如下哪些问题：",
+      "options": [
+        {
+          "key": "A",
+          "text": "用户期望是否有优先级？"
+        },
+        {
+          "key": "B",
+          "text": "用户期望的优先级对软件开发的影响？"
+        },
+        {
+          "key": "C",
+          "text": "界面和可操作性是首要的，因为这是用户能直接感受到的。"
+        },
+        {
+          "key": "D",
+          "text": "真实用户是谁？"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "D"
+      ],
+      "accuracy": null
+    },
+    {
+      "id": 17,
+      "type": "multiple",
+      "stem": "PSP当中为什么用缺陷管理替代质量管理？下述说法中正确的是：",
+      "options": [
+        {
+          "key": "A",
+          "text": "因为缺陷管理相关的活动（例如，测试等）本来就是软件开发中必须要开展的活动。"
+        },
+        {
+          "key": "B",
+          "text": "因为缺陷往往对应了面向用户质量观中的首要用户期望。"
+        },
+        {
+          "key": "C",
+          "text": "因为缺陷管理和质量管理其实是一回事。"
+        },
+        {
+          "key": "D",
+          "text": "因为单纯质量管理很难操作。"
+        }
+      ],
+      "answer": [
+        "B",
+        "D"
+      ],
+      "accuracy": null
+    },
+    {
+      "id": 18,
+      "type": "multiple",
+      "stem": "关于PROBE估算法，下述各种说法中，不正确的有哪些？",
+      "options": [
+        {
+          "key": "A",
+          "text": "PROBE估算结果带着小数，肯定不准确，因而， 不应该在项目估算的时候使用。"
+        },
+        {
+          "key": "B",
+          "text": "PROBE方法不能用来估算质量。"
+        },
+        {
+          "key": "C",
+          "text": "PROBE不能给出精确估算，因而适合用来跟用户讨论需求和规模。"
+        },
+        {
+          "key": "D",
+          "text": "PROBE方法不需要历史数据。"
+        }
+      ],
+      "answer": [
+        "A",
+        "C",
+        "D"
+      ],
+      "accuracy": null
+    },
+    {
+      "id": 19,
+      "type": "multiple",
+      "stem": "关于质量路径（Quality Journey），下列说法中哪些不恰当。",
+      "options": [
+        {
+          "key": "A",
+          "text": "质量路径中所列举的方法都是提升开发质量的有效手段，可以随意选择使用。"
+        },
+        {
+          "key": "B",
+          "text": "进入测试之前的高质量，是获得测试之后高质量软件系统的前提条件。"
+        },
+        {
+          "key": "C",
+          "text": "高质量软件产品最终还是需要依赖测试来确保。v"
+        },
+        {
+          "key": "D",
+          "text": "质量路径与个体软件工程师无关，是团队层面的集体努力。"
+        }
+      ],
+      "answer": [
+        "A",
+        "D"
+      ],
+      "accuracy": null
+    },
+    {
+      "id": 20,
+      "type": "multiple",
+      "stem": "关于评审检查表，下述说法中不恰当的是：",
+      "options": [
+        {
+          "key": "A",
+          "text": "项目团队所有人应该共用一份评审检查表，体现统一性"
+        },
+        {
+          "key": "B",
+          "text": "评审检查表应该保持稳定，确保缺陷不会被遗漏"
+        },
+        {
+          "key": "C",
+          "text": "评审检查表应该定期更新"
+        },
+        {
+          "key": "D",
+          "text": "评审检查表应该是个性化的"
+        }
+      ],
+      "answer": [
+        "A",
+        "B"
+      ],
+      "accuracy": null
+    },
+    {
+      "id": 21,
+      "type": "multiple",
+      "stem": "关于PQI，下述说法中不恰当的是：",
+      "options": [
+        {
+          "key": "A",
+          "text": "PQI越高越好，最好达到1.0"
+        },
+        {
+          "key": "B",
+          "text": "PQI可以用来辅助判断模块开发的质量"
+        },
+        {
+          "key": "C",
+          "text": "PQI五个分指标都可以超过1.0，比如，设计时间多于编码时间的时候，该分指标就超过1.0了"
+        },
+        {
+          "key": "D",
+          "text": "PQI可以为过程改进提供依据"
+        }
+      ],
+      "answer": [
+        "A",
+        "C"
+      ],
+      "accuracy": null
+    },
+    {
+      "id": 22,
+      "type": "multiple",
+      "stem": "关于评审，下述说法中不恰当是：",
+      "options": [
+        {
+          "key": "A",
+          "text": "代码的个人评审也应该通过评审检查表来进行。"
+        },
+        {
+          "key": "B",
+          "text": "代码的个人评审最好交叉进行，因为阅读自己代码容易产生思维定式，不利于缺陷发现。"
+        },
+        {
+          "key": "C",
+          "text": "代码的个人评审应该安排在单元测试之后，确保评审对象有着较高的质量，提升评审价值。"
+        },
+        {
+          "key": "D",
+          "text": "如果安排了代码的小组评审，那么代码个人评审就可以不用做。"
+        }
+      ],
+      "answer": [
+        "B",
+        "C"
+      ],
+      "accuracy": null
+    },
+    {
+      "id": 27,
+      "type": "single",
+      "stem": "根据敏捷宣言，以下哪项描述了更多的价值？",
+      "options": [
+        {
+          "key": "A",
+          "text": "个体和交互、可工作的软件、客户协作、响应变化"
+        },
+        {
+          "key": "B",
+          "text": "响应变化、个体和交互、流程和工作、客户协作"
+        },
+        {
+          "key": "C",
+          "text": "可工作的软件、个体交互、响应变化、相近的文档"
+        },
+        {
+          "key": "D",
+          "text": "客户协作、遵循计划、可工作的软件、个体交互"
+        }
+      ],
+      "answer": "A",
+      "accuracy": null
+    },
+    {
+      "id": 28,
+      "type": "single",
+      "stem": "下列哪一项更好地描述了敏捷宣言？",
+      "options": [
+        {
+          "key": "A",
+          "text": "它包含了许多敏捷团队使用的实践"
+        },
+        {
+          "key": "B",
+          "text": "它概述了构建软件的最有效方法"
+        },
+        {
+          "key": "C",
+          "text": "它包含了建立敏捷思维方式的价值观"
+        },
+        {
+          "key": "D",
+          "text": "它定义了构建软件的规则"
+        }
+      ],
+      "answer": "C",
+      "accuracy": null
+    },
+    {
+      "id": 30,
+      "type": "single",
+      "stem": "你是一个软件团队的开发人员。 一个用户向你的团队询问有关构建新功能的信息，并以规范的形式提供了需求。 她非常确定这个功能要如何工作，并承诺不会有任何变化。 哪种敏捷价值最适用于这种情况？",
+      "options": [
+        {
+          "key": "A",
+          "text": "工作的软件 高于 详尽的文档"
+        },
+        {
+          "key": "B",
+          "text": "个体和互动 高于 流程和工具"
+        },
+        {
+          "key": "C",
+          "text": "客户合作 高于 合同谈判"
+        },
+        {
+          "key": "D",
+          "text": "响应变化 高于 遵循计划"
+        }
+      ],
+      "answer": "A",
+      "accuracy": null
+    },
+    {
+      "id": 31,
+      "type": "single",
+      "stem": "Sean是一个正在构建财务软件的团队的开发人员。 他的团队被要求开发一个新的交易系统。 他和他的团队召开会议来提出他们正在使用的工作流的图景。 然后，他们将流程放在白板上，流程中的每个步骤都有一列。 经过对团队在白板上的工作项目进行了几周观察，他们注意到这个过程中有几个步骤似乎过载了。对于他们来说，下一步应该做什么？",
+      "options": [
+        {
+          "key": "A",
+          "text": "与团队合作，在工作进展缓慢的阶段更好地完成工作"
+        },
+        {
+          "key": "B",
+          "text": "专注于完成看板上的工作"
+        },
+        {
+          "key": "C",
+          "text": "对过载步骤中正在进行的工作项目的数量进行限制"
+        },
+        {
+          "key": "D",
+          "text": "在较慢的步骤中使用更多的人力"
+        }
+      ],
+      "answer": "C",
+      "accuracy": null
+    },
+    {
+      "id": 32,
+      "type": "single",
+      "stem": "下列哪一个不是精益原则？",
+      "options": [
+        {
+          "key": "A",
+          "text": "实施反馈循环"
+        },
+        {
+          "key": "B",
+          "text": "消除浪费"
+        },
+        {
+          "key": "C",
+          "text": "尽可能晚的做决定"
+        },
+        {
+          "key": "D",
+          "text": "识别所有的步骤"
+        }
+      ],
+      "answer": "A",
+      "accuracy": null
+    },
+    {
+      "id": 33,
+      "type": "single",
+      "stem": "下列哪一个更好地描述了如何使用看板？",
+      "options": [
+        {
+          "key": "A",
+          "text": "帮助团队自我组织，并了解工作流程中的瓶颈所在"
+        },
+        {
+          "key": "B",
+          "text": "观察特征如何流经过程，以便团队可以确定如何限制WIP并通过工作流程中的步骤确定最均匀的工作流程"
+        },
+        {
+          "key": "C",
+          "text": "跟踪WIP限制和当前任务状态，以便团队知道他们还有多少工作要做"
+        },
+        {
+          "key": "D",
+          "text": "跟踪缺陷和问题，并创建解决产品问题的最快途径"
+        }
+      ],
+      "answer": "B",
+      "accuracy": null
+    },
+    {
+      "id": 36,
+      "type": "single",
+      "stem": "在制品规模越小越好，因为这样可以优化前置时间，并且团队的效率会变高。",
+      "options": [
+        {
+          "key": "A",
+          "text": "正确"
+        },
+        {
+          "key": "B",
+          "text": "错误"
+        }
+      ],
+      "answer": "B",
+      "accuracy": null
+    },
+    {
+      "id": 40,
+      "type": "multiple",
+      "stem": "在组成派看来，软件架构是指？",
+      "options": [
+        {
+          "key": "A",
+          "text": "软件架构是一系列重要决策的集合，包括构成系统的结构要素及其接口的选择。"
+        },
+        {
+          "key": "B",
+          "text": "软件架构包括系统组件、连接件和约束的集合。"
+        },
+        {
+          "key": "C",
+          "text": "软件架构由软件元素、这些元素的外部可见属性，以及元素之间的关系组成。"
+        },
+        {
+          "key": "D",
+          "text": "软件架构将系统定义为计算组件及组件间的交互。"
+        }
+      ],
+      "answer": [
+        "B",
+        "C",
+        "D"
+      ],
+      "accuracy": null
+    },
+    {
+      "id": 43,
+      "type": "multiple",
+      "stem": "分层架构将软件系统的组件分成多个互不重叠的层，包括",
+      "options": [
+        {
+          "key": "A",
+          "text": "物理层"
+        },
+        {
+          "key": "B",
+          "text": "表现层"
+        },
+        {
+          "key": "C",
+          "text": "业务层"
+        },
+        {
+          "key": "D",
+          "text": "应用层"
+        }
+      ],
+      "answer": [
+        "B",
+        "C"
+      ],
+      "accuracy": null
+    },
+    {
+      "id": 44,
+      "type": "single",
+      "stem": "在应用分层架构的软件系统中，最先处理外部请求的是：",
+      "options": [
+        {
+          "key": "A",
+          "text": "业务层"
+        },
+        {
+          "key": "B",
+          "text": "应用层"
+        },
+        {
+          "key": "C",
+          "text": "表现层"
+        },
+        {
+          "key": "D",
+          "text": "数据层"
+        }
+      ],
+      "answer": "C",
+      "accuracy": null
+    },
+    {
+      "id": 45,
+      "type": "multiple",
+      "stem": "分层架构模式的缺点包括：",
+      "options": [
+        {
+          "key": "A",
+          "text": "不易于持续发布和部署"
+        },
+        {
+          "key": "B",
+          "text": "由于层间依赖关系，软件系统的可扩展性差"
+        },
+        {
+          "key": "C",
+          "text": "软件升级需要暂停整个服务"
+        },
+        {
+          "key": "D",
+          "text": "额外的性能开销"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "accuracy": null
+    },
+    {
+      "id": 47,
+      "type": "multiple",
+      "stem": "以下哪几个不是面向服务架构强调的实现原则？",
+      "options": [
+        {
+          "key": "A",
+          "text": "服务去中心化"
+        },
+        {
+          "key": "B",
+          "text": "服务简单"
+        },
+        {
+          "key": "C",
+          "text": "服务重用"
+        },
+        {
+          "key": "D",
+          "text": "服务解耦"
+        }
+      ],
+      "answer": [
+        "A",
+        "B"
+      ],
+      "accuracy": null
+    },
+    {
+      "id": 49,
+      "type": "single",
+      "stem": "本质上，微服务架构是SOA的一种扩展。",
+      "options": [
+        {
+          "key": "A",
+          "text": "错误"
+        },
+        {
+          "key": "B",
+          "text": "正确"
+        }
+      ],
+      "answer": "B",
+      "accuracy": null
+    },
+    {
+      "id": 50,
+      "type": "multiple",
+      "stem": "以下选项中，哪些属于微服务架构的特点？",
+      "options": [
+        {
+          "key": "A",
+          "text": "中心化"
+        },
+        {
+          "key": "B",
+          "text": "基础设施自动化"
+        },
+        {
+          "key": "C",
+          "text": "通过服务组件化"
+        },
+        {
+          "key": "D",
+          "text": "内聚和解耦"
+        }
+      ],
+      "answer": [
+        "B",
+        "C",
+        "D"
+      ],
+      "accuracy": null
+    },
+    {
+      "id": 51,
+      "type": "single",
+      "stem": "以下对于微服务优点的描述中，哪一个是错误的？",
+      "options": [
+        {
+          "key": "A",
+          "text": "微服务系统测试变得非常简单"
+        },
+        {
+          "key": "B",
+          "text": "单个微服务很简单，只关注一个业务功能"
+        },
+        {
+          "key": "C",
+          "text": "微服务可以使用RPC进行服务间通信"
+        },
+        {
+          "key": "D",
+          "text": "不同的微服务可以使用不同的语言进行开发"
+        }
+      ],
+      "answer": "A",
+      "accuracy": null
+    },
+    {
+      "id": 56,
+      "type": "multiple",
+      "stem": "与面向服务架构相关的Web服务标准包括：",
+      "options": [
+        {
+          "key": "A",
+          "text": "UML"
+        },
+        {
+          "key": "B",
+          "text": "HTTPS"
+        },
+        {
+          "key": "C",
+          "text": "SOAP"
+        },
+        {
+          "key": "D",
+          "text": "WSDL"
+        }
+      ],
+      "answer": [
+        "B",
+        "C",
+        "D"
+      ],
+      "accuracy": null
+    },
+    {
+      "id": 59,
+      "type": "single",
+      "stem": "以下哪些是Docker的存储驱动：",
+      "options": [
+        {
+          "key": "A",
+          "text": "其他都是"
+        },
+        {
+          "key": "B",
+          "text": "Device mapper"
+        },
+        {
+          "key": "C",
+          "text": "OverlayFS"
+        },
+        {
+          "key": "D",
+          "text": "AUFS"
+        }
+      ],
+      "answer": "A",
+      "accuracy": null
+    },
+    {
+      "id": 60,
+      "type": "single",
+      "stem": "以下哪个命令可以查看当前运行容器：",
+      "options": [
+        {
+          "key": "A",
+          "text": "docker top"
+        },
+        {
+          "key": "B",
+          "text": "docker run"
+        },
+        {
+          "key": "C",
+          "text": "docker ps"
+        },
+        {
+          "key": "D",
+          "text": "docker logs"
+        }
+      ],
+      "answer": "C",
+      "accuracy": null
+    },
+    {
+      "id": 62,
+      "type": "single",
+      "stem": "以下哪些是Kubernetes的控制器：",
+      "options": [
+        {
+          "key": "A",
+          "text": "Rolling Updates"
+        },
+        {
+          "key": "B",
+          "text": "ReplicaSet"
+        },
+        {
+          "key": "C",
+          "text": "Deployment"
+        },
+        {
+          "key": "D",
+          "text": "Both ReplicaSet and Deployment"
+        }
+      ],
+      "answer": "D",
+      "accuracy": null
+    },
+    {
+      "id": 63,
+      "type": "single",
+      "stem": "以下哪些是Kubernetes的核心概念",
+      "options": [
+        {
+          "key": "A",
+          "text": "Volumes"
+        },
+        {
+          "key": "B",
+          "text": "Services"
+        },
+        {
+          "key": "C",
+          "text": "其他都是"
+        },
+        {
+          "key": "D",
+          "text": "Pods"
+        }
+      ],
+      "answer": "C",
+      "accuracy": null
+    },
+    {
+      "id": 64,
+      "type": "single",
+      "stem": "Kubernetes里面的Replication控制器的职责是：",
+      "options": [
+        {
+          "key": "A",
+          "text": "当已存在的Pod异常退出后，创建新的Pod"
+        },
+        {
+          "key": "B",
+          "text": "删除或者更新多个Pod"
+        },
+        {
+          "key": "C",
+          "text": "其他都是"
+        },
+        {
+          "key": "D",
+          "text": "帮助达到预期的状态"
+        }
+      ],
+      "answer": "C",
+      "accuracy": null
+    },
+    {
+      "id": 65,
+      "type": "single",
+      "stem": "如何通过命令行创建一个容器",
+      "options": [
+        {
+          "key": "A",
+          "text": "docker run"
+        },
+        {
+          "key": "B",
+          "text": "docker start"
+        },
+        {
+          "key": "C",
+          "text": "docker poll"
+        },
+        {
+          "key": "D",
+          "text": "docker create"
+        }
+      ],
+      "answer": "A",
+      "accuracy": null
+    },
+    {
+      "id": 67,
+      "type": "single",
+      "stem": "使用Kubernetes带来的好处有哪些",
+      "options": [
+        {
+          "key": "A",
+          "text": "自动回滚"
+        },
+        {
+          "key": "B",
+          "text": "自动调度"
+        },
+        {
+          "key": "C",
+          "text": "其他都是"
+        },
+        {
+          "key": "D",
+          "text": "横向扩展"
+        }
+      ],
+      "answer": "C",
+      "accuracy": null
+    },
+    {
+      "id": 68,
+      "type": "single",
+      "stem": "以下哪项用于确保pod不会被调度到不适当的节点上？",
+      "options": [
+        {
+          "key": "A",
+          "text": "Taints 和 Tolerations"
+        },
+        {
+          "key": "B",
+          "text": "Taints"
+        },
+        {
+          "key": "C",
+          "text": "以上都不是"
+        },
+        {
+          "key": "D",
+          "text": "Tolerations"
+        }
+      ],
+      "answer": "A",
+      "accuracy": null
+    },
+    {
+      "id": 69,
+      "type": "single",
+      "stem": "关于Kubernetes的namespace的论述是否正确：命名空间是在多个用户之间划分群集资源的方法",
+      "options": [
+        {
+          "key": "A",
+          "text": "错误"
+        },
+        {
+          "key": "B",
+          "text": "正确"
+        }
+      ],
+      "answer": "B",
+      "accuracy": null
+    },
+    {
+      "id": 71,
+      "type": "multiple",
+      "stem": "Docker容器的状态有",
+      "options": [
+        {
+          "key": "A",
+          "text": "Restarting"
+        },
+        {
+          "key": "B",
+          "text": "Exited"
+        },
+        {
+          "key": "C",
+          "text": "Paused"
+        },
+        {
+          "key": "D",
+          "text": "Running"
+        }
+      ],
+      "answer": [
+        "B",
+        "D"
+      ],
+      "accuracy": null
+    },
+    {
+      "id": 73,
+      "type": "single",
+      "stem": "下列哪项不属于协同开发工具？",
+      "options": [
+        {
+          "key": "A",
+          "text": "Rally"
+        },
+        {
+          "key": "B",
+          "text": "JIRA"
+        },
+        {
+          "key": "C",
+          "text": "Kanban"
+        },
+        {
+          "key": "D",
+          "text": "Confluence"
+        }
+      ],
+      "answer": "D",
+      "accuracy": null
+    },
+    {
+      "id": 75,
+      "type": "single",
+      "stem": "下列哪种持续集成工具是目前DevOps领域使用最广泛的？",
+      "options": [
+        {
+          "key": "A",
+          "text": "TeamCity"
+        },
+        {
+          "key": "B",
+          "text": "Jenkins"
+        },
+        {
+          "key": "C",
+          "text": "Travis CI"
+        },
+        {
+          "key": "D",
+          "text": "VSTS"
+        }
+      ],
+      "answer": "B",
+      "accuracy": null
+    },
+    {
+      "id": 76,
+      "type": "single",
+      "stem": "Jenkins支持工作流即代码（pipeline-as-code）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "正确"
+        },
+        {
+          "key": "B",
+          "text": "错误"
+        }
+      ],
+      "answer": "A",
+      "accuracy": null
+    },
+    {
+      "id": 79,
+      "type": "single",
+      "stem": "以下哪项不是Git的文件目录？",
+      "options": [
+        {
+          "key": "A",
+          "text": "Documents"
+        },
+        {
+          "key": "B",
+          "text": "加载区"
+        },
+        {
+          "key": "C",
+          "text": "工作目录"
+        },
+        {
+          "key": "D",
+          "text": ".git目录"
+        }
+      ],
+      "answer": "A",
+      "accuracy": null
+    },
+    {
+      "id": 80,
+      "type": "single",
+      "stem": "下列哪种编译工具无法编译JAVA语言？",
+      "options": [
+        {
+          "key": "A",
+          "text": "Gradle"
+        },
+        {
+          "key": "B",
+          "text": "Ant"
+        },
+        {
+          "key": "C",
+          "text": "MSBuild"
+        },
+        {
+          "key": "D",
+          "text": "Maven"
+        }
+      ],
+      "answer": "C",
+      "accuracy": null
+    },
+    {
+      "id": 81,
+      "type": "single",
+      "stem": "下列哪种工具无法实现对远程服务器的配置操作？",
+      "options": [
+        {
+          "key": "A",
+          "text": "JIRA"
+        },
+        {
+          "key": "B",
+          "text": "Ansible"
+        },
+        {
+          "key": "C",
+          "text": "Puppt"
+        },
+        {
+          "key": "D",
+          "text": "Chef"
+        }
+      ],
+      "answer": "A",
+      "accuracy": null
+    },
+    {
+      "id": 82,
+      "type": "single",
+      "stem": "Selenium能实现自动化单元测试。",
+      "options": [
+        {
+          "key": "A",
+          "text": "错误"
+        },
+        {
+          "key": "B",
+          "text": "正确"
+        }
+      ],
+      "answer": "A",
+      "accuracy": null
+    },
+    {
+      "id": 89,
+      "type": "single",
+      "stem": "以下哪种工具是开源工具？",
+      "options": [
+        {
+          "key": "A",
+          "text": "Zabbix"
+        },
+        {
+          "key": "B",
+          "text": "JIRA"
+        },
+        {
+          "key": "C",
+          "text": "TeamCity"
+        },
+        {
+          "key": "D",
+          "text": "JUnit"
+        }
+      ],
+      "answer": "D",
+      "accuracy": null
+    },
+    {
+      "id": 91,
+      "type": "multiple",
+      "stem": "下列哪些工具不能模拟市场上主流浏览器的操作？",
+      "options": [
+        {
+          "key": "A",
+          "text": "FitNesse"
+        },
+        {
+          "key": "B",
+          "text": "Jenkins"
+        },
+        {
+          "key": "C",
+          "text": "JUnit"
+        },
+        {
+          "key": "D",
+          "text": "Selenium"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "accuracy": null
+    },
+    {
+      "id": 93,
+      "type": "single",
+      "stem": "以下选项中，哪一项不属于微服务架构的特点？",
+      "options": [
+        {
+          "key": "A",
+          "text": "基础设施自动化"
+        },
+        {
+          "key": "B",
+          "text": "低内聚和高耦合"
+        },
+        {
+          "key": "C",
+          "text": "围绕业务能力组织"
+        },
+        {
+          "key": "D",
+          "text": "去中心化"
+        }
+      ],
+      "answer": "B",
+      "accuracy": null
+    },
+    {
+      "id": 95,
+      "type": "multiple",
+      "stem": "以下对于微服务优点的描述中，哪几项是正确的？",
+      "options": [
+        {
+          "key": "A",
+          "text": "不同的微服务可以使用不同的语言进行开发。"
+        },
+        {
+          "key": "B",
+          "text": "单个微服务很简单，只关注一个业务功能"
+        },
+        {
+          "key": "C",
+          "text": "微服务系统测试变得非常简单"
+        },
+        {
+          "key": "D",
+          "text": "微服务可以使用RPC进行服务间通信"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "D"
+      ],
+      "accuracy": null
+    },
+    {
+      "id": 96,
+      "type": "single",
+      "stem": "在组成派看来，软件架构是一系列重要决策的集合，包括构成系统的结构要素及其接口的选择。",
+      "options": [
+        {
+          "key": "A",
+          "text": "错误"
+        },
+        {
+          "key": "B",
+          "text": "正确"
+        }
+      ],
+      "answer": "A",
+      "accuracy": null
+    },
+    {
+      "id": 97,
+      "type": "single",
+      "stem": "微服务架构的特点包括“围绕业务能力组织”、“内聚和解耦”、“基础设施自动化”等。",
+      "options": [
+        {
+          "key": "A",
+          "text": "错误"
+        },
+        {
+          "key": "B",
+          "text": "正确"
+        }
+      ],
+      "answer": "B",
+      "accuracy": null
+    },
+    {
+      "id": 99,
+      "type": "single",
+      "stem": "持续集成是DevOps理念中重要的一个实践环节，它经历了纯脚本驱动到持续集成工具两个发展阶段，目前正向第三个阶段流水线即代码的阶段发展",
+      "options": [
+        {
+          "key": "A",
+          "text": "错误"
+        },
+        {
+          "key": "B",
+          "text": "正确"
+        }
+      ],
+      "answer": "B",
+      "accuracy": null
+    },
+    {
+      "id": 101,
+      "type": "single",
+      "stem": "Git、GitHub、GitLab是完全不一样的三款版本管理工具",
+      "options": [
+        {
+          "key": "A",
+          "text": "正确"
+        },
+        {
+          "key": "B",
+          "text": "错误"
+        }
+      ],
+      "answer": "B",
+      "accuracy": null
+    }
+  ]
+}

@@ -26,7 +26,10 @@
         }
       ],
       "answer": "D",
-      "accuracy": 99.34
+      "accuracy": 99.34,
+      "explanation": "Kanban（看板）最早起源于**日本的汽车制造业**，具体来说是由丰田汽车在 1940-50 年代开发的丰田生产系统（TPS）。大野耐一（Taiichi Ohno）从美国超市的「按需补货」模式获得灵感，发明了看板作为拉动式生产的信号工具——下游工序只在需要时通过看板向上游「拉动」零件。",
+      "source": "Taiichi Ohno, \"Toyota Production System\", 1988; Kanban Guides",
+      "source_url": "https://kanbanguides.org/"
     },
     {
       "id": 2,
@@ -51,7 +54,10 @@
         }
       ],
       "answer": "D",
-      "accuracy": 96.03
+      "accuracy": 96.03,
+      "explanation": "Kanban 指南将看板定义为通过**可视化（Visualize）和拉动式（Pull）系统**来优化流程中价值流动的策略。关键点是「拉动式」而非「推动式」——工作不是被推给下一环节，而是由下一环节在有能力时主动拉取。这与传统制造业的「推动式」生产形成对比。",
+      "source": "Kanban Guides — \"What is Kanban\"",
+      "source_url": "https://kanbanguides.org/"
     },
     {
       "id": 3,
@@ -76,7 +82,10 @@
         }
       ],
       "answer": "B",
-      "accuracy": 94.04
+      "accuracy": 94.04,
+      "explanation": "2003 年，**Mary 和 Tom Poppendieck** 出版了《Lean Software Development: An Agile Toolkit》，首次系统地将丰田精益原则映射到软件开发领域。他们将七个精益原则和七种软件浪费做了同构翻译，为后来的看板方法和精益软件开发奠定了基础。",
+      "source": "Mary & Tom Poppendieck, \"Lean Software Development: An Agile Toolkit\", 2003",
+      "source_url": "https://www.leanessays.com/"
     },
     {
       "id": 4,
@@ -101,7 +110,10 @@
         }
       ],
       "answer": "C",
-      "accuracy": 94.04
+      "accuracy": 94.04,
+      "explanation": "David J. Anderson 的里程碑著作《Kanban: Successful Evolutionary Change for Your Technology Business》出版于 **2010 年**。这本书首次完整定义了看板方法（Kanban Method）的六大实践，并提出了「从你现在做的开始，追求增量式的、演进式的改变」这一核心原则。",
+      "source": "David J. Anderson, \"Kanban: Successful Evolutionary Change for Your Technology Business\", 2010",
+      "source_url": "https://djaa.com/kanban-successful-evolutionary-change-for-your-technology-business/"
     },
     {
       "id": 5,
@@ -126,7 +138,10 @@
         }
       ],
       "answer": "D",
-      "accuracy": 97.35
+      "accuracy": 97.35,
+      "explanation": "Kanban Method 的六大实践是：①可视化（Visualize）；②限制在制品（Limit WIP）；③管理流动（Manage Flow）；④显式化策略（Make Policies Explicit）；⑤实施反馈循环（Implement Feedback Loops）；⑥协作改进、实验性演进（Improve Collaboratively, Evolve Experimentally）。**固定迭代节奏不属于这六大实践**——那是 Scrum 的特征（Sprint）。看板不强制时间盒。",
+      "source": "Kanban Guides — Kanban Practices",
+      "source_url": "https://kanbanguides.org/"
     },
     {
       "id": 6,
@@ -151,7 +166,10 @@
         }
       ],
       "answer": "A",
-      "accuracy": 98.01
+      "accuracy": 98.01,
+      "explanation": "看板中 **DoW = Definition of Workflow**（工作流定义）。这是团队对工作如何在看板系统中流动的显式定义，包括：从「开始」到「结束」的所有状态列、每个状态的进入/退出条件、WIP 限制等。DoW 不同于 Scrum 中的 DoD（Definition of Done）。",
+      "source": "Kanban Guides",
+      "source_url": "https://kanbanguides.org/"
     },
     {
       "id": 7,
@@ -176,7 +194,10 @@
         }
       ],
       "answer": "A",
-      "accuracy": 98.68
+      "accuracy": 98.68,
+      "explanation": "产能（Throughput）在 Kanban 语境中定义为**每单位时间内完成的工作项数量**（如每周完成 8 张卡片）。它度量的是系统的「出产速率」。与之相关的指标还有 Cycle Time（一个工作项从开始到完成的时间）和 Lead Time（从请求提出到最终交付的时间）。",
+      "source": "Kanban Guides — Metrics",
+      "source_url": "https://kanbanguides.org/"
     },
     {
       "id": 8,
@@ -201,7 +222,10 @@
         }
       ],
       "answer": "C",
-      "accuracy": 96.03
+      "accuracy": 96.03,
+      "explanation": "**Lead Time（交付时间）**从客户提出需求的时刻开始计时，通常还包括需求在「待办池」中等待启动的时间。**Cycle Time（周期时间）**仅从工作被「拉入」开发流程（如从 To Do 移到 Doing）的时刻开始计时。因此 **Lead Time 通常 ≥ Cycle Time**，多的那部分就是「前置等待时间」。",
+      "source": "Kanban Guides — Metrics",
+      "source_url": "https://kanbanguides.org/"
     },
     {
       "id": 9,
@@ -226,7 +250,10 @@
         }
       ],
       "answer": "B",
-      "accuracy": 92.72
+      "accuracy": 92.72,
+      "explanation": "精益思想的演化顺序为：**福特流水线（1913）→ 丰田 TPS（1940s-50s）→ Poppendieck 精益软件开发（2003）**。亨利·福特首先发明了大规模流水线生产；丰田在其基础上加入「拉动」和「消除浪费」思想，发展出 TPS；Poppendieck 夫妇将精益原则从制造业翻译到软件领域。三者是递进演化关系。",
+      "source": "内容由AI生成，仅供参考。参考：Womack & Jones, \"Lean Thinking\"; Poppendieck, \"Lean Software Development\"",
+      "source_url": "https://www.leanessays.com/"
     },
     {
       "id": 10,
@@ -251,7 +278,10 @@
         }
       ],
       "answer": "D",
-      "accuracy": 100.0
+      "accuracy": 100.0,
+      "explanation": "「自働化（Jidoka）」是丰田生产系统的核心概念之一，读者可能注意到它写作「自**働**」而非「自**動**」。**働**是一个和制汉字，比「動」多了一个「亻」（单人旁），体现了「赋予机器以人的智能」——机器不只是自动运转（automation），而是在出现异常时能「自主判断并停机」。对应的英文是 **autonomation**（autonomous + automation），而非简单的 automation。",
+      "source": "Toyota Production System — Jidoka; Jeffrey Liker, \"The Toyota Way\"",
+      "source_url": "https://global.toyota/en/company/vision-and-philosophy/production-system/"
     },
     {
       "id": 11,
@@ -276,7 +306,10 @@
         }
       ],
       "answer": "A",
-      "accuracy": 94.7
+      "accuracy": 94.7,
+      "explanation": "Poppendieck 夫妇的核心贡献是做了**精益概念的同构映射（isomorphic mapping）**：把制造业的「库存（inventory）」翻译成软件的「在制品（WIP，如未合并的代码分支）」；把「过度生产」翻译成「额外功能（extra features）」；把「运输」翻译成「交接（hand-offs）」等。这种同构翻译使得丰田的精益原则能在软件领域落地。",
+      "source": "内容由AI生成，仅供参考。参考：Poppendieck, \"Lean Software Development\", 2003",
+      "source_url": "https://www.leanessays.com/"
     },
     {
       "id": 12,
@@ -301,7 +334,10 @@
         }
       ],
       "answer": "C",
-      "accuracy": 80.79
+      "accuracy": 80.79,
+      "explanation": "精益软件开发中的**七种浪费（Seven Wastes）**包括：①部分完成的工作；②额外功能（Extra Features）；③重新学习（Relearning）；④交接（Handoffs）；⑤延迟（Delays）；⑥任务切换（Task Switching）；⑦缺陷（Defects）。**过度沟通不在七种浪费之列**——相反，缺乏沟通或沟通不畅才是浪费的常见来源。",
+      "source": "Mary & Tom Poppendieck, \"Lean Software Development\"",
+      "source_url": "https://www.leanessays.com/"
     },
     {
       "id": 13,
@@ -326,7 +362,10 @@
         }
       ],
       "answer": "B",
-      "accuracy": 98.68
+      "accuracy": 98.68,
+      "explanation": "精益的「推迟决策」原则中的关键概念是 **Last Responsible Moment（最后责任时刻，LRM）**。这个原则告诉团队：不要过早做出不可逆的决策，而是等到拥有了足够信息、再不做就来不及的那一刻才决定。LRM 不等于「拖延」，而是在不确定性和决策成本之间做最优平衡。",
+      "source": "Mary & Tom Poppendieck, \"Lean Software Development\"",
+      "source_url": "https://www.leanessays.com/"
     },
     {
       "id": 14,
@@ -351,7 +390,10 @@
         }
       ],
       "answer": "B",
-      "accuracy": 100.0
+      "accuracy": 100.0,
+      "explanation": "CI 红灯代表流水线检测到了问题。用 `--no-verify` 跳过检查直接合并，**违反了内建质量（Build Quality In）的「停线权」**——在丰田 TPS 中称为 **Jidoka（自働化）**：任何人发现问题都有权「停止生产线」。红灯意味着「停下来修问题」，而不是「绕过问题继续」。",
+      "source": "内容由AI生成，仅供参考。参考：Toyota Production System — Jidoka; Lean Software Development",
+      "source_url": "https://global.toyota/en/company/vision-and-philosophy/production-system/"
     },
     {
       "id": 15,
@@ -376,7 +418,10 @@
         }
       ],
       "answer": "A",
-      "accuracy": 99.34
+      "accuracy": 99.34,
+      "explanation": "Kanban 的核心原则之一是**限制在制品（Limit WIP）**。当瓶颈列出现堆积时，正确的做法是：**收紧 WIP 限制**（这里建议从默认调到约 4），停止往瓶颈前推工作，集中力量疏通瓶颈（如分析原因、补充资源、优化流程）。其他选项（绕开限制、拆给空闲工人、加班）都违反了「暴露瓶颈 → 解决瓶颈」的精益原则。",
+      "source": "内容由AI生成，仅供参考。参考：Kanban Method — Limit WIP practice",
+      "source_url": "https://kanbanguides.org/"
     },
     {
       "id": 16,
@@ -401,7 +446,10 @@
         }
       ],
       "answer": "C",
-      "accuracy": 100.0
+      "accuracy": 100.0,
+      "explanation": "此题考察精益的全局优化原则：**局部最优 ≠ 全局最优（Sub-optimization）**。开发更快只会让下游测试队列积压更多，整体交付速度并不会变快——瓶颈仍然在测试环节。正确的做法是分析整个价值流，找到真正的瓶颈（约束理论中的约束点）并进行系统性优化。",
+      "source": "内容由AI生成，仅供参考。参考：Goldratt, \"The Goal\" (Theory of Constraints); Lean principles",
+      "source_url": "https://kanbanguides.org/"
     },
     {
       "id": 17,
@@ -426,7 +474,10 @@
         }
       ],
       "answer": "B",
-      "accuracy": 98.68
+      "accuracy": 98.68,
+      "explanation": "只把看板当作「待办列表的电子化」但缺少 **WIP 限制、显式策略和反馈循环**，这只是看板的「形」而非「神」。Kanban Method 的核心不仅仅是可视化板，而是通过 WIP 限制暴露瓶颈、通过显式策略定义规则、通过反馈循环持续改进。缺少这些核心实践的工具只是任务追踪系统，称不上 Kanban 方法。",
+      "source": "内容由AI生成，仅供参考。参考：Kanban Method — Six Core Practices",
+      "source_url": "https://kanbanguides.org/"
     }
   ]
 }

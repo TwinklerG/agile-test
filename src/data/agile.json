@@ -26,7 +26,10 @@
         }
       ],
       "answer": "C",
-      "accuracy": 96.67
+      "accuracy": 96.67,
+      "explanation": "根据 Standish Group 的 CHAOS 报告，软件项目分为三类：**成功的（Successful）**——按时、按预算、按规格完成；**不太成功的（Challenged）**——已完成可运行，但超预算、超时、或功能少于原始规格；**失败的（Failed）**——在开发过程中被取消。Challenged 项目占比在传统瀑布模式下常年居高不下，这正是敏捷运动兴起的重要背景。",
+      "source": "Standish Group, \"CHAOS Report\", 1994 onwards",
+      "source_url": "https://www.standishgroup.com/sample_research_files/chaos_report_1994.pdf"
     },
     {
       "id": 2,
@@ -51,7 +54,10 @@
         }
       ],
       "answer": "B",
-      "accuracy": 92.67
+      "accuracy": 92.67,
+      "explanation": "敏捷观点衡量项目成功的首要标准是**为客户创造价值（Customer Value）**。与传统方法关注「按时/按预算/按规格」的三角约束不同，敏捷认为即使偏离计划，只要交付的软件为客户带来实际价值，项目就是成功的。这是价值观层面的根本差异。",
+      "source": "Agile Manifesto, Principle 1: \"Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.\"",
+      "source_url": "https://agilemanifesto.org/principles.html"
     },
     {
       "id": 3,
@@ -76,7 +82,10 @@
         }
       ],
       "answer": "A",
-      "accuracy": 99.33
+      "accuracy": 99.33,
+      "explanation": "在「价值观—原则—实践」体系中，**价值观（Values）**是最根本的层次——它是「我们在某种处境中喜欢或不喜欢某事情的根源」。价值观之上是原则（Principles，价值观的具体化），再之上是实践（Practices，原则的具体执行）。三者构成自上而下的指导体系。",
+      "source": "内容由AI生成，仅供参考。参考：Kent Beck, \"Extreme Programming Explained\" 第2版第5章",
+      "source_url": "https://www.agilealliance.org/agile101/"
     },
     {
       "id": 4,
@@ -101,7 +110,10 @@
         }
       ],
       "answer": "B",
-      "accuracy": 95.33
+      "accuracy": 95.33,
+      "explanation": "《敏捷宣言》由 17 位软件方法论专家于 **2001 年 2 月 11-13 日在犹他州雪鸟（Snowbird）滑雪场**的 The Lodge 酒店签署。这次历史性会议汇集了 XP、Scrum、DSDM、ASD、Crystal、FDD 等「轻量级方法论」的代表，他们最终达成了 4 条价值观和 12 条原则的共识。",
+      "source": "Agile Manifesto — History",
+      "source_url": "https://agilemanifesto.org/history.html"
     },
     {
       "id": 5,
@@ -126,7 +138,10 @@
         }
       ],
       "answer": "D",
-      "accuracy": 98.67
+      "accuracy": 98.67,
+      "explanation": "《敏捷宣言》每条「X 高于 Y」的表述格式的正确理解是：**尽管右项（Y）有其价值，但我们更重视左项（X）的价值**。这不是说右项毫无价值——文档、合同、计划、流程都有其必要性——而是说当二者冲突时，优先选择左项。宣言本身特别注明「while there is value in the items on the right, we value the items on the left more」。",
+      "source": "Agile Manifesto",
+      "source_url": "https://agilemanifesto.org/"
     },
     {
       "id": 6,
@@ -151,7 +166,10 @@
         }
       ],
       "answer": "A",
-      "accuracy": 97.33
+      "accuracy": 97.33,
+      "explanation": "**Code and Fix（边写边改）**是一种无正式规划的开发模式：设计过程充斥短期的、即时的决定，没有完整的前期规划。这是敏捷方法所反对的原始状态——它既不是工程方法（有规划但缺乏适应），也不是敏捷方法（有适应但缺乏纪律）。",
+      "source": "内容由AI生成，仅供参考。参考：McConnell, \"Rapid Development\" 或 Agile 教材中关于开发模式分类的内容",
+      "source_url": "https://www.agilealliance.org/glossary/"
     },
     {
       "id": 7,
@@ -176,7 +194,10 @@
         }
       ],
       "answer": "B",
-      "accuracy": 98.67
+      "accuracy": 98.67,
+      "explanation": "「工程方法（Engineering Methodologies）」也被广泛称为**计划驱动方法（Plan-Driven Methodologies）**。这类方法强调:先做完整规划 → 按计划执行 → 减少变更。典型代表是瀑布模型。它与敏捷/适应性方法形成方法论谱系的两端。",
+      "source": "内容由AI生成，仅供参考。参考：Alistair Cockburn, \"Agile Software Development\", 2001",
+      "source_url": "https://www.agilealliance.org/glossary/"
     },
     {
       "id": 8,
@@ -201,7 +222,10 @@
         }
       ],
       "answer": "D",
-      "accuracy": 97.33
+      "accuracy": 97.33,
+      "explanation": "敏捷方法相对工程方法的两个深层本质特点是：**适应性而非预见性（Adaptive rather than Predictive）**和**面向人而非面向过程（People-oriented rather than Process-oriented）**。文档减少只是表象，根源在于对不确定性和人性的不同假设。",
+      "source": "内容由AI生成，仅供参考。参考：Alistair Cockburn, \"Agile Software Development\"",
+      "source_url": "https://www.agilealliance.org/agile101/"
     },
     {
       "id": 9,
@@ -226,7 +250,10 @@
         }
       ],
       "answer": "C",
-      "accuracy": 88.0
+      "accuracy": 88.0,
+      "explanation": "传统正规软件工程方法「将设计与建造分离」的基本思路主要借鉴自**土木工程等其他工程领域**。在这些成熟的工程领域中，设计和建造天然是分开的（建筑师画图 → 施工队按图建造），因为后期变更的代价极高。这种思路被软件工程早期照搬，但软件的特殊性（可修改性、不可触摸性）使其不完全适用。",
+      "source": "内容由AI生成，仅供参考。参考：软件工程教材中关于 'software engineering as an engineering discipline' 的经典论述",
+      "source_url": "https://www.agilealliance.org/agile101/"
     },
     {
       "id": 10,
@@ -251,7 +278,10 @@
         }
       ],
       "answer": "B",
-      "accuracy": 87.33
+      "accuracy": 87.33,
+      "explanation": "Steve McConnell 在其著作中指出，在大型软件项目中，编码和单元测试仅占项目总工作量的约 **15%**。其他工作包括需求分析、架构设计、集成测试、文档、项目管理等。这一数据常被用来论证「为什么只关注编码效率是不够的」以及「为什么敏捷实践需要覆盖整个价值流」。",
+      "source": "Steve McConnell, \"Code Complete\" 或类似著作",
+      "source_url": "https://www.construx.com/books/code-complete/"
     },
     {
       "id": 11,
@@ -276,7 +306,10 @@
         }
       ],
       "answer": "C",
-      "accuracy": 90.67
+      "accuracy": 90.67,
+      "explanation": "Alistair Cockburn 在其著名论文《Characterizing People as Non-Linear, First-Order Components in Software Development》中提出，软件开发中的「人」是**非线性的一阶部件（non-linear, first-order components）**——这意味着：①人不是可预见的、可替换的标准化零件；②人之间的互动产生非线性效应（沟通效果受信任、熟悉度等复杂因素影响）；③因此「过程」和「方法论」必须考虑到人的独特性。",
+      "source": "Alistair Cockburn, \"Characterizing People as Non-Linear, First-Order Components in Software Development\", 1999",
+      "source_url": "https://alistair.cockburn.us/characterizing-people-as-non-linear-first-order-components-in-software-development/"
     },
     {
       "id": 12,
@@ -301,7 +334,10 @@
         }
       ],
       "answer": "C",
-      "accuracy": 96.67
+      "accuracy": 96.67,
+      "explanation": "此题考察价值观与实践的关系。敏捷宣言说「个体和互动高于流程和工具」——重点在「互动」的质量而非某种特定形式的沟通。**写了一千页文档并不等同于重视沟通**——如果每天 15 分钟面对面交谈更有效，那么厚重的文档不能说明他重视沟通。实践必须根据实际效果而不是表面形式来评判。",
+      "source": "内容由AI生成，仅供参考。参考：Agile Manifesto — 'Individuals and interactions over processes and tools'",
+      "source_url": "https://agilemanifesto.org/"
     },
     {
       "id": 13,
@@ -326,7 +362,10 @@
         }
       ],
       "answer": "A",
-      "accuracy": 99.33
+      "accuracy": 99.33,
+      "explanation": "根据「个体和互动高于流程和工具」，管理者应该**向新团队建议并鼓励尝试**，但不强制规定。敏捷的核心是「人高于流程」——好的工具和流程应服务于团队，而不是反过来。强制推行即使是被验证过的好实践，也违背了「自组织团队」和「适应性」原则。",
+      "source": "内容由AI生成，仅供参考。参考：Agile Manifesto & Principles 5+11",
+      "source_url": "https://agilemanifesto.org/principles.html"
     },
     {
       "id": 14,
@@ -351,7 +390,10 @@
         }
       ],
       "answer": "A",
-      "accuracy": 98.67
+      "accuracy": 98.67,
+      "explanation": "在商用软件开发中，**需求变更是常态，甚至「应该变」**。软件不可触摸——很多功能只有实际使用系统后才知道是否有用。这份特性意味着试图在开发前「彻底锁定需求」是不切实际的。正确的做法不是禁止变更，而是建立一个能安全响应变更的开发流程（即敏捷方法的核心目标）。",
+      "source": "内容由AI生成，仅供参考。参考：Agile Manifesto — 'Responding to change over following a plan'",
+      "source_url": "https://agilemanifesto.org/"
     },
     {
       "id": 15,
@@ -376,7 +418,10 @@
         }
       ],
       "answer": "B",
-      "accuracy": 98.0
+      "accuracy": 98.0,
+      "explanation": "此题描述的是一个**自我实现的预言（self-fulfilling prophecy）的正反馈循环**：管理者把人当成可互相替换的插件 → 不把每个人当作独特个体对待 → 优秀人才感到不被尊重而流失 → 团队真的只剩下平庸的「插件」→ 管理者认为自己的管理方式得到了验证。这正是敏捷强调「面向人而非面向过程」所要杜绝的文化。",
+      "source": "内容由AI生成，仅供参考。参考：Alistair Cockburn 关于 'people as non-linear components' 的论述",
+      "source_url": "https://alistair.cockburn.us/characterizing-people-as-non-linear-first-order-components-in-software-development/"
     },
     {
       "id": 16,
@@ -401,7 +446,10 @@
         }
       ],
       "answer": "D",
-      "accuracy": 98.67
+      "accuracy": 98.67,
+      "explanation": "此题考察度量管理的经典陷阱——**古德哈特定律（Goodhart's Law）**：当一个度量成为目标时，它就不再是好的度量。用单一指标考核开发人员会导致「指标优化」而非「效能提升」——开发者改变工作方式去迎合指标。对软件开发这种创造性工作，**委托式管理（delegatory management）**往往比基于度量的微观管理更有效。",
+      "source": "内容由AI生成，仅供参考。参考：Goodhart's Law & 敏捷管理相关材料",
+      "source_url": "https://www.agilealliance.org/glossary/"
     },
     {
       "id": 17,
@@ -426,7 +474,10 @@
         }
       ],
       "answer": "A",
-      "accuracy": 99.33
+      "accuracy": 99.33,
+      "explanation": "衡量敏捷项目成功的是**商业价值（Business Value）**——客户得到的软件价值是否大于其投入。敏捷项目欢迎变更，一个好的敏捷项目往往会建造出与最初计划不同却更好的软件——因为团队在迭代过程中基于真实反馈持续调整方向。这与传统项目管理以「遵循计划」为成功的标准形成鲜明对比。",
+      "source": "内容由AI生成，仅供参考。参考：Agile Manifesto — 'Customer collaboration over contract negotiation' & 'Responding to change over following a plan'",
+      "source_url": "https://agilemanifesto.org/"
     }
   ]
 }
